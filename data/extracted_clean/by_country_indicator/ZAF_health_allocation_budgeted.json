@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "health_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_budgeted": {
+        "value": 228.6,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Approval_External_CitizensBudget_NationalTreasury_SADC_English_ebd4c9-0",
+        "source_page": 1,
+        "notes": "Highest score candidate, correct data type (Budgeted), explicit year mention, and strong in-table evidence. Value is consistent across multiple documents. Critic confidence: 0.92, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_budgeted": {
+        "value": 247.9,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Approval_External_CitizensBudget_NationalTreasury_SADC_English_ebd4c9-0",
+        "source_page": 1,
+        "notes": "All candidates for 2021 have the same value, unit, and correct data type. Chosen based on the highest score and strong in-table evidence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 8.44% from 2020 - reasonable and within expected range."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_budgeted": {
+        "value": 259.2,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "All candidates for 2022 have the same value, unit, and correct data type. Chosen based on the highest score and strong in-table evidence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 4.56% from 2021 - reasonable and within expected range."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_budgeted": {
+        "value": 271.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "All candidates for 2023 have the same value, unit, and correct data type. Chosen based on the highest score and strong in-table evidence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 4.86% from 2022 - reasonable and within expected range."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_budgeted": {
+        "value": 284.5,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "All candidates for 2024 have the same value, unit, and correct data type. Chosen based on the highest score and strong in-table evidence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 4.67% from 2023 - reasonable and within expected range."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_budgeted": {
+        "value": 297.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "All candidates for 2025 have the same value, unit, and correct data type. Chosen based on the highest score and strong in-table evidence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 4.67% from 2024 - reasonable and within expected range."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_health_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 422.438157,
+  "extraction_date": "2025-10-31T10:03:26.575083"
+}

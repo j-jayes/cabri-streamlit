@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "agriculture_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_actual": {
+        "value": 45.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_aabbde",
+        "source_page": 13,
+        "notes": "Strong evidence (in-table, header match), correct data type (Actual), and clear unit. Value maintains series coherence. Critic confidence: 0.9, Verification confidence: 1.0"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_actual": {
+        "value": 48.5,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_aabbde",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with strong evidence and correct data type (Actual). Value shows plausible growth from previous year (~7.8%). Critic confidence: 0.92, Verification confidence: 1.0, Growth rate from 2020: 7.8% (reasonable)"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_actual": {
+        "value": 52.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2022_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_5dcaca",
+        "source_page": 22,
+        "notes": "Highest scoring candidate with strong evidence and correct data type (Actual). Value shows plausible growth from previous year (~7.2%). Critic confidence: 0.95, Verification confidence: 0.9, Growth rate from 2021: 7.2% (reasonable)"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_actual": {
+        "value": 55.5,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2022_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_5dcaca",
+        "source_page": 22,
+        "notes": "Strong evidence (in-table, header match) and correct data type (Actual). Value shows plausible growth from previous year (~6.7%). Critic confidence: 0.91, Verification confidence: 0.9, Growth rate from 2022: 6.7% (reasonable)"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_actual": {
+        "value": 60.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Execution_External_AdjustedBudget_NationalTreasury_EACCOMESAIGAD_English_80a79e",
+        "source_page": 579,
+        "notes": "Strong evidence (in-table, header match), correct data type (Actual), and clear unit. Value maintains series coherence (~8.1% growth). Critic confidence: 0.93, Verification confidence: 0.9, Growth rate from 2023: 8.1% (reasonable)"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "agriculture_allocation_actual": {
+        "value": 65.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Execution_External_AdjustedBudget_NationalTreasury_EACCOMESAIGAD_English_80a79e",
+        "source_page": 579,
+        "notes": "The only suitable candidate found with strong evidence and correct data type (Actual). Value maintains series coherence (~8.3% growth). Critic confidence: 0.94, Verification confidence: 0.9, Growth rate from 2024: 8.3% (reasonable)"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_agriculture_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1835.824472,
+  "extraction_date": "2025-10-31T11:24:14.841849"
+}

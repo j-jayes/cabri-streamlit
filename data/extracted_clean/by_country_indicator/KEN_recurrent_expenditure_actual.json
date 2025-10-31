@@ -1,0 +1,78 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "recurrent_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_actual": {
+        "value": 1540.5,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_208f75",
+        "source_page": 1,
+        "notes": "Highest score candidate with 'Actual' data type, strong evidence (in table, header match), and appropriate unit and magnitude for total recurrent expenditure. Critic confidence: 0.95, Verification confidence: 0.98"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_actual": {
+        "value": 1720.8,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Approval_External_EnactedBudget_NationalTreasury_EACCOMESAIGAD_English_208f75",
+        "source_page": 1,
+        "notes": "Highest score candidate with 'Actual' data type, strong evidence (in table, header match), appropriate unit and magnitude. Growth rate of 11.7% from 2020 is plausible. Critic confidence: 0.92, Verification confidence: 0.98, Growth rate from 2020: 11.7% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_actual": {
+        "value": 1910.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 66,
+        "notes": "Highest score candidate with definitive 'Actual' data type and strong evidence (in table, header match). Growth rate of 11.0% from 2021 is plausible. Critic confidence: 0.90, Verification confidence: 0.88, Growth rate from 2021: 11.0% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_actual": {
+        "value": 2000.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2023_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_922c24",
+        "source_page": 28,
+        "notes": "Highest score candidate with 'Actual' data type and strong evidence (in table, header match). Growth rate of 4.7% from 2022 is plausible. Critic confidence: 0.92, Verification confidence: 0.98, Growth rate from 2022: 4.7% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_actual": {
+        "value": 2150.0,
+        "unit": "billion KES",
+        "data_type": "Revised estimate",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 3,
+        "notes": "Only candidate with an acceptable data type ('Revised estimate') for an 'actual' indicator. Strong evidence (in table, header match), appropriate unit and magnitude. Growth rate of 7.5% from 2023 is plausible and maintains series coherence. Critic confidence: 0.85, Verification confidence: 0.88, Growth rate from 2023: 7.5% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_recurrent_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 549.172318,
+  "extraction_date": "2025-10-31T08:13:04.713605"
+}

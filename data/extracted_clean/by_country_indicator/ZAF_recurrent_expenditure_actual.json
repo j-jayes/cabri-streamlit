@@ -1,0 +1,78 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "recurrent_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_actual": {
+        "value": 1050.2,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "Clear table evidence for 'Actual' data, explicit year mention, and high score. Consistent with overall series magnitude. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_actual": {
+        "value": 1120.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "Strong evidence as 'Actual' data in a table with high score. Represents a plausible 6.7% growth from 2020. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate 6.7% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_actual": {
+        "value": 1180.3,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "Excellent evidence for 'Actual' data in a table, high score. Shows a consistent 5.3% growth from 2021. Critic confidence: 0.91, Verification confidence: 0.95, Growth rate 5.3% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_actual": {
+        "value": 1250.7,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2024_Execution_External_AdjustedBudget_NationalTreasury_SADC_English_4b0648",
+        "source_page": 47,
+        "notes": "Highest scoring candidate with 'Actual' data type in a table, representing a coherent 6.0% growth from 2022. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate 6.0% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_actual": {
+        "value": 1320.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2024_Execution_External_AdjustedBudget_NationalTreasury_SADC_English_4b0648",
+        "source_page": 47,
+        "notes": "Best candidate with explicit 'Actual' data type and good evidence. Maintains time series coherence with 5.5% growth from 2023. Critic confidence: 0.9, Verification confidence: 0.88, Growth rate 5.5% from 2023 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_recurrent_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 550.581139,
+  "extraction_date": "2025-10-31T10:03:15.327263"
+}

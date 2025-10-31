@@ -1,0 +1,77 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "agriculture_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_budgeted": {
+        "value": 850.0,
+        "unit": "million MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2020_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_e6c074",
+        "source_page": 9,
+        "notes": "Strongest candidate for 'Budgeted' allocation, in-table evidence, and appropriate unit (million MGA). Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_budgeted": {
+        "value": 900.0,
+        "unit": "million MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2023_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_2630c8",
+        "source_page": 23,
+        "notes": "Highest scoring 'Budgeted' candidate with in-table evidence and appropriate local currency unit. Critic confidence: 0.98, Verification confidence: 0.95. Growth rate 5.88% from 2020 - reasonable. Unit 'million MGA' consistent with prior year."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_budgeted": {
+        "value": 980.0,
+        "unit": "million MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2023_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_2630c8",
+        "source_page": 6,
+        "notes": "Highest scoring 'Budgeted' candidate with in-table evidence and appropriate local currency unit. Critic confidence: 0.97, Verification confidence: 0.95. Growth rate 8.89% from 2021 - reasonable. Unit 'million MGA' consistent with prior year."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_budgeted": {
+        "value": 1100.0,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_cadbe8",
+        "source_page": 1,
+        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.10) | Strongest 'Budgeted' candidate with in-table evidence and highest score. Value (1.1 billion MGA) is equivalent to 1100 million MGA, aligning with other candidates. Critic confidence: 0.99, Verification confidence: 0.95. Growth rate 12.24% from 2022 - reasonable. Unit shifted to 'billion MGA' but is compatible with 'million MGA' for comparison.",
+        "original_value": 1.1
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_budgeted": {
+        "value": 1250.0,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c1b084",
+        "source_page": 19,
+        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.25) | Strongest 'Proposed' (valid for budgeted) candidate with in-table evidence and highest score. Value (1.25 billion MGA) is equivalent to 1250 million MGA. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate 13.64% from 2023 - reasonable. Unit 'billion MGA' consistent with prior year's magnitude.",
+        "original_value": 1.25
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_agriculture_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 691.037965,
+  "extraction_date": "2025-10-31T09:54:04.404870"
+}

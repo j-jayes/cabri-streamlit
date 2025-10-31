@@ -1,0 +1,78 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "agriculture_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_actual": {
+        "value": 25.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest-scoring candidate with 'Actual' data type, strong table evidence, and explicit year mention. Consistent with time series. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_actual": {
+        "value": 27.8,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest-scoring candidate with 'Actual' data type, strong table evidence, and explicit year mention. Growth of 9.0% from 2020 is plausible. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate 9.0% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_actual": {
+        "value": 31.2,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest-scoring candidate with 'Actual' data type, strong table evidence, and explicit year mention. Growth of 12.2% from 2021 is plausible. Critic confidence: 0.96, Verification confidence: 0.95, Growth rate 12.2% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_actual": {
+        "value": 34.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest-scoring candidate with 'Actual' data type, strong table evidence, and explicit year mention. Growth of 10.6% from 2022 is plausible. Critic confidence: 0.94, Verification confidence: 0.95, Growth rate 10.6% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_actual": {
+        "value": 36.8,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Only suitable candidate for 'actual' data type ('Revised estimate' is acceptable). Strong table evidence. Growth of 6.7% from 2023 is plausible. Critic confidence: 0.90, Verification confidence: 0.90, Growth rate 6.7% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_agriculture_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1740.805539,
+  "extraction_date": "2025-10-31T07:08:22.181015"
+}

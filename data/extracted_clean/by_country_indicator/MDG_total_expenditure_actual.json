@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "total_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_actual": {
+        "value": 11500.0,
+        "unit": "billion NGN",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Highest score (0.95), explicitly 'Actual', found in table with header match. The unit 'billion NGN' is appropriate. Critic confidence: 0.95, Verification confidence: 0.98"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_actual": {
+        "value": 12700.0,
+        "unit": "billion NGN",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Highest score (0.92), explicitly 'Actual', found in table with header match. Unit is consistent with prior year. Growth rate of 10.43% from 2020 is plausible. Critic confidence: 0.92, Verification confidence: 0.98, Growth rate 10.43% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_actual": {
+        "value": 17000.0,
+        "unit": "billion NGN",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
+        "source_page": 6,
+        "notes": "Highest score (0.94), explicitly 'Actual', found in table with header match. Unit is consistent. Despite a higher growth rate, this candidate has the strongest individual quality. Critic confidence: 0.94, Verification confidence: 0.98, Significant growth rate of 33.86% from 2021 - warrants further investigation into contributing factors (e.g., inflation, policy changes)."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_actual": {
+        "value": 20000.0,
+        "unit": "billion NGN",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
+        "source_page": 6,
+        "notes": "Highest score (0.91) among valid data types, explicitly 'Actual', found in table with header match. Unit is consistent. Growth rate of 17.65% from 2022 is consistent with trends. Critic confidence: 0.91, Verification confidence: 0.98, Growth rate 17.65% from 2022 - reasonable following the previous year's jump."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_actual": {
+        "value": 22000.0,
+        "unit": "billion NGN",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
+        "source_page": 18,
+        "notes": "Only candidate with 'Actual' data type for 2024, sourced from a subsequent year's document (2025 review), which is standard practice for 'Actual' figures. Strong evidence score (0.93) and 'in_table' indi... Critic confidence: 0.93, Verification confidence: 0.98, Growth rate 10.00% from 2023 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_total_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 782.556014,
+  "extraction_date": "2025-10-31T11:27:59.457169"
+}

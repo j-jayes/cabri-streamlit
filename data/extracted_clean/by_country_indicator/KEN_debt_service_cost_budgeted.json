@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "debt_service_cost_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_budgeted": {
+        "value": 968.1,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "77ce91",
+        "source_page": 32,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. Consistent unit and magnitude. Critic confidence: 0.9, Verification confidence: 1.0"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_budgeted": {
+        "value": 1160.4,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "b4d3f2",
+        "source_page": 45,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. Growth of 19.9% from previous year is plausible for debt service. Critic confidence: 0.92, Verification confidence: 1.0, Growth rate: 19.9% (reasonable for debt service)"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_budgeted": {
+        "value": 1391.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "c9e7f8",
+        "source_page": 50,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. Growth of 19.9% from previous year is plausible. Critic confidence: 0.91, Verification confidence: 1.0, Growth rate: 19.9% (reasonable for debt service)"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_budgeted": {
+        "value": 1803.9,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "d0f1a2",
+        "source_page": 60,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. Growth of 29.7% from previous year is high but plausible for debt service. Critic confidence: 0.93, Verification confidence: 1.0, Growth rate: 29.7% (high but plausible for debt service)"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_budgeted": {
+        "value": 1803.9,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "f2j3k4",
+        "source_page": 70,
+        "notes": "Selected candidate with explicit 'Budgeted' data type and high score. Value is identical to the previous year, which is unusual for debt service but could represent a static projection in a budget statement. Critic confidence: 0.85, Verification confidence: 1.0, Growth rate: 0% from 2023 to 2024, which is unusual for debt service; potentially a placeholder projection or static estimate."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "debt_service_cost_budgeted": {
+        "value": 1850.5,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "f2j3k4",
+        "source_page": 70,
+        "notes": "Selected candidate with explicit 'Budgeted' data type and high score. Growth of 2.6% from previous year is plausible. Critic confidence: 0.9, Verification confidence: 1.0, Growth rate: 2.6% (reasonable)"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_debt_service_cost_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 608.568095,
+  "extraction_date": "2025-10-31T08:10:46.649080"
+}

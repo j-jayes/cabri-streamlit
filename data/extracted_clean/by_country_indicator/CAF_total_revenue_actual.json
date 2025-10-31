@@ -1,0 +1,75 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "total_revenue_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_actual": {
+        "value": 1800.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2020_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_63ea8a",
+        "source_page": 9,
+        "notes": "Highest score and best data type ('Actual') for 2020. Critic confidence: 0.9, Verification confidence: 0.94"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_actual": {
+        "value": 1950.2,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2022_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_61e332",
+        "source_page": 2,
+        "notes": "Highest score and best data type ('Actual') for 2021. Critic confidence: 0.92, Verification confidence: 0.94. Growth rate 8.3% from previous year - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_actual": {
+        "value": 2100.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2022_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_61e332",
+        "source_page": 2,
+        "notes": "Highest score and best data type ('Actual') for 2022. Critic confidence: 0.91, Verification confidence: 0.94. Growth rate 7.7% from previous year - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_actual": {
+        "value": 2250.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Approval_External_CitizensBudget_Unknown_ECCASCEN-SAD_French_7e9a7f",
+        "source_page": 1,
+        "notes": "Highest score and best data type ('Actual') for 2023. Critic confidence: 0.93, Verification confidence: 0.94. Growth rate 7.1% from previous year - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_actual": {
+        "value": 2400.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2024_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_54701e",
+        "source_page": 2,
+        "notes": "⚠ Unverified: PDF verification failed or PDF unavailable. Highest score and best data type ('Projected') for 2024. Critic confidence: 0.85, Verification confidence: 0.3. Concerns: DATA TYPE MISMATCH: Indicator 'total_revenue_actual' expects 'actual' data, but PDF context shows 'projected' for this year. Growth rate 6.7% from previous year - reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_total_revenue_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 730.2345,
+  "extraction_date": "2025-10-31T02:28:18.722064"
+}

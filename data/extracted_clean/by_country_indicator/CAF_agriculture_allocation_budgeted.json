@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "agriculture_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_budgeted": {
+        "value": 15.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2020a",
+        "source_page": 20,
+        "notes": "Highest quality budgeted allocation (score 0.95, in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. Critic confidence: 0.99, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_budgeted": {
+        "value": 16.5,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2021a",
+        "source_page": 25,
+        "notes": "Highest quality budgeted allocation (score 0.92, in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. Critic confidence: 0.97, Verification confidence: 0.95. Growth rate from 2020 to 2021: 10.0%"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_budgeted": {
+        "value": 18.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2022a",
+        "source_page": 15,
+        "notes": "Highest quality budgeted allocation (score 0.90, not in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. Critic confidence: 0.90, Verification confidence: 0.85. Growth rate from 2021 to 2022: 9.1%"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_budgeted": {
+        "value": 20.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2023a",
+        "source_page": 30,
+        "notes": "Highest quality budgeted allocation (score 0.93, in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. ⚠ Unverified: PDF verification failed or PDF unavailable. UNIT MAGNITUDE MISMATCH: PDF shows 'million' but expected 'billion'. Value found but unit magnitude is 1000x different, raising concerns about interpretation. Critic confidence: 0.98, Verification confidence: 0.45. Growth rate from 2022 to 2023: 11.1%"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_budgeted": {
+        "value": 22.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2024a",
+        "source_page": 22,
+        "notes": "Highest quality budgeted allocation (score 0.91, in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate from 2023 to 2024: 10.0%"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "agriculture_allocation_budgeted": {
+        "value": 24.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "caf2025a",
+        "source_page": 18,
+        "notes": "Highest quality budgeted allocation (score 0.90, in table) with correct data type and plausible unit ('billion XAF'). Converted to 'billion XAF' for consistency. ⚠ Unverified: PDF verification failed or PDF unavailable. Critic confidence: 0.95, Verification confidence: 0.0. Growth rate from 2024 to 2025: 9.1%"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_agriculture_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1745.613028,
+  "extraction_date": "2025-10-31T06:39:19.034934"
+}

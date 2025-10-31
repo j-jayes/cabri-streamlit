@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "capital_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_budgeted": {
+        "value": 120.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest score (0.9), strong evidence as 'in_table' and 'header_match', explicitly 'Budgeted'. Forms a solid base for the time series.Critic confidence: 0.9, Verification confidence: 1.0"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_budgeted": {
+        "value": 130.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest score (0.92), strongest evidence ('in_table', 'header_match'), explicitly 'Budgeted'. Consistent growth (8.33%) with previous year.Critic confidence: 0.92, Verification confidence: 1.0, Growth rate 8.33% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_budgeted": {
+        "value": 140.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 15,
+        "notes": "Highest score (0.9), strong evidence ('in_table', 'header_match'), explicitly 'Estimate' (a budgeted data type). Consistent growth (7.69%). Candidate 0 is similar but slightly lower score.Critic confidence: 0.9, Verification confidence: 0.9, Growth rate 7.69% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_budgeted": {
+        "value": 155.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest score (0.93), strongest evidence ('in_table', 'header_match'), explicitly 'Budgeted'. Consistent growth (10.71%). Candidate 1 is too high, Candidate 2 has unit error.Critic confidence: 0.93, Verification confidence: 0.9, Growth rate 10.71% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_budgeted": {
+        "value": 165.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest score (0.91), strong evidence ('in_table', 'header_match'), explicitly 'Proposed' (a budgeted data type). Consistent growth (6.45%). Candidate 1 is similar but slightly lower score.Critic confidence: 0.91, Verification confidence: 1.0, Growth rate 6.45% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_budgeted": {
+        "value": 180.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest score (0.89), strong evidence ('in_table', 'header_match'), explicitly 'Estimate' (a budgeted data type). Consistent growth (9.09%).Critic confidence: 0.89, Verification confidence: 0.9, Growth rate 9.09% - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_capital_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1805.673398,
+  "extraction_date": "2025-10-31T04:40:59.322734"
+}

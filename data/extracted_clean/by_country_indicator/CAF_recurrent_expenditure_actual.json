@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "recurrent_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_actual": {
+        "value": 453.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "c1d2e3",
+        "source_page": 15,
+        "notes": "Strong evidence (in table, header match), correct data type ('Actual'), highest score among candidates for the year. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_actual": {
+        "value": 500.2,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "e3f4g5",
+        "source_page": 18,
+        "notes": "Strongest evidence (in table, header match), explicitly 'Actual', and highest score. Value shows a plausible growth rate from the previous year. Critic confidence: 0.92, Verification confidence: 0.93. Growth rate of 10.3% from 2020 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_actual": {
+        "value": 560.1,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "g7h8i9",
+        "source_page": 20,
+        "notes": "Strongest evidence (in table, header match), explicitly 'Actual', and highest score. Value shows a plausible growth rate from the previous year. Critic confidence: 0.90, Verification confidence: 0.95. Growth rate of 12.0% from 2021 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_actual": {
+        "value": 610.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "i9j0k1",
+        "source_page": 25,
+        "notes": "Strongest evidence (in table, header match), explicitly 'Actual', and highest score. Value shows a plausible growth rate from the previous year. Critic confidence: 0.89, Verification confidence: 0.98. Growth rate of 9.0% from 2022 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_actual": {
+        "value": 180.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "d1c2b3",
+        "source_page": 22,
+        "notes": "Best available candidate matching 'Actual' data type with strong evidence. Chosen despite creating a significant time series anomaly. Critic confidence: 0.8, Verification confidence: 0.94. WARNING: Implausible -70.5% drop from 2023, suggesting potential data error or reporting inconsistency."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "recurrent_expenditure_actual": {
+        "value": 85.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "f5g6h7",
+        "source_page": 30,
+        "notes": "Best available candidate matching 'Actual' data type with strong evidence. Chosen despite exacerbating the time series anomaly. Critic confidence: 0.75, Verification confidence: 0.94. WARNING: Implausible -52.8% drop from 2024, continuing a severe negative trend and exacerbating the anomaly."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_recurrent_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 645.98178,
+  "extraction_date": "2025-10-31T04:10:51.342543"
+}

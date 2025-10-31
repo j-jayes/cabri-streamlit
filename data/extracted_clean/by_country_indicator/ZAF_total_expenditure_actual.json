@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "total_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_actual": {
+        "value": 2145.7,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf120",
+        "source_page": 55,
+        "notes": "Clear table evidence, correct data type ('Actual'), explicit year mention and appropriate unit. Critic confidence: 0.95, Verification confidence: 0.9"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_actual": {
+        "value": 2250.2,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf122",
+        "source_page": 48,
+        "notes": "Strong table evidence, correct data type ('Actual'), explicit year mention and appropriate unit. Growth rate of 4.87% from previous year is highly plausible. Critic confidence: 0.92, Verification confidence: 0.9, Growth rate from 2020: 4.87% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_actual": {
+        "value": 2380.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf124",
+        "source_page": 62,
+        "notes": "Highest scoring candidate with explicit 'Actual' data type, strong table evidence, and correct unit. Growth rate of 5.79% is consistent with the series. Critic confidence: 0.96, Verification confidence: 0.9, Growth rate from 2021: 5.79% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_actual": {
+        "value": 2490.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf128",
+        "source_page": 50,
+        "notes": "Only candidate with 'Actual' data type, strong table evidence, and correct unit. Growth rate of 4.62% is consistent with the series. Critic confidence: 0.94, Verification confidence: 0.9, Growth rate from 2022: 4.62% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_actual": {
+        "value": 2600.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf131",
+        "source_page": 45,
+        "notes": "Only candidate with 'Actual' data type, strong table evidence, and correct unit. Growth rate of 4.40% is consistent with the series. Critic confidence: 0.93, Verification confidence: 0.9, Growth rate from 2023: 4.40% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_expenditure_actual": {
+        "value": 2720.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "zaf134",
+        "source_page": 40,
+        "notes": "Only candidate with 'Actual' data type, strong table evidence, and correct unit. Growth rate of 4.62% is consistent with the series. Critic confidence: 0.94, Verification confidence: 0.9, Growth rate from 2024: 4.62% - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_total_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 370.379624,
+  "extraction_date": "2025-10-31T09:55:40.389955"
+}

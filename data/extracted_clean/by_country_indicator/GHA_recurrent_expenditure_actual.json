@@ -1,0 +1,78 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "recurrent_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_actual": {
+        "value": 70000.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "gha2021a",
+        "source_page": 45,
+        "notes": "Highest scoring candidate with 'Actual' data type, strong table evidence, and clear unit. Forms a coherent starting point for the time series. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_actual": {
+        "value": 85000.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "gha2022c",
+        "source_page": 50,
+        "notes": "Highest scoring candidate with 'Actual' data type and strong table evidence. Value (85,000 million GHS) represents a plausible 21.4% growth from 2020, maintaining time series coherence. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate of 21.4% from 2020 is on the higher side but not implausible given potential economic factors."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_actual": {
+        "value": 105000.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "gha2023e",
+        "source_page": 60,
+        "notes": "Highest scoring candidate with 'Actual' data type and very strong table evidence. Value (105,000 million GHS) shows a coherent 23.5% growth from 2021. Critic confidence: 0.95, Verification confidence: 0.95. Growth rate of 23.5% from 2021 is on the higher side but not implausible given potential economic factors."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_actual": {
+        "value": 130000.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "gha2024h",
+        "source_page": 70,
+        "notes": "Highest scoring candidate with 'Actual' data type and strong table evidence. Value (130,000 million GHS) maintains time series coherence with 23.8% growth from 2022. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate of 23.8% from 2022 is on the higher side but not implausible given potential economic factors."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_actual": {
+        "value": 160000.0,
+        "unit": "million GHS",
+        "data_type": "Revised estimate",
+        "source_document": "gha2025k",
+        "source_page": 55,
+        "notes": "Chosen as the best available candidate with an acceptable data type ('Revised estimate' for 'actual' indicator) that maintains time series coherence. Value (160,000 million GHS) shows a plausible 23.1% growth from 2023. Rejected candidates either had wrong data type or an implausibly low value. Critic confidence: 0.85, Verification confidence: 0.9. Chosen candidate is 'Revised estimate' as no 'Actual' data was found for this year, reducing confidence slightly. Growth rate of 23.1% from 2023 is on the higher side but not implausible given potential economic factors."
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_recurrent_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 330.869947,
+  "extraction_date": "2025-10-31T07:55:16.222078"
+}

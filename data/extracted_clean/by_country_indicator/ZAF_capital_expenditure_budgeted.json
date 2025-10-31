@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "capital_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_budgeted": {
+        "value": 250.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "Highest scoring candidate (0.95), explicitly 'Budgeted' data type, found in a table, and consistent with the overall magnitude and unit of the time series. This value is identical to candidate 1 (250 billio... Critic confidence: 0.95, Verification confidence: 0.95 UNIT CORRECTED: 250,000 million -> 250.0 billion (divided by 1000 and changed unit)."
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_budgeted": {
+        "value": 270.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 123,
+        "notes": "Highest scoring candidate (0.92), explicitly 'Budgeted' data type, found in a table, and maintains strong time series coherence with an 8.0% growth from 2020. This value is identical to candidate 1 (270 billio... Critic confidence: 0.92, ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: ['PDF file missing - verification impossible']. Growth rate 8.0% from 2020 - reasonable. UNIT CORRECTED: 270,000 million -> 270.0 billion (divided by 1000 and changed unit)."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_budgeted": {
+        "value": 290.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Highest scoring candidate (0.96), explicitly 'Budgeted' data type, found in a table, and maintains strong time series coherence with a 7.4% growth from 2021. This value is identical to candidate 1 (290 billio... Critic confidence: 0.96, Verification confidence: 0.95. Growth rate 7.4% from 2021 - reasonable. UNIT CORRECTED: 290,000 million -> 290.0 billion (divided by 1000 and changed unit)."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_budgeted": {
+        "value": 310.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Highest scoring candidate (0.94), explicitly 'Budgeted' data type, found in a table, and maintains strong time series coherence with a 6.9% growth from 2022. This value is identical to candidate 1 (310 billio... Critic confidence: 0.94, Verification confidence: 0.95. Growth rate 6.9% from 2022 - reasonable. UNIT CORRECTED: 310,000 million -> 310.0 billion (divided by 1000 and changed unit)."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_budgeted": {
+        "value": 330.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Highest scoring candidate (0.97), explicitly 'Budgeted' data type, found in a table, and maintains strong time series coherence with a 6.5% growth from 2023. This value is identical to candidate 1 (330 billio... Critic confidence: 0.97, Verification confidence: 0.95. Growth rate 6.5% from 2023 - reasonable. UNIT CORRECTED: 330,000 million -> 330.0 billion (divided by 1000 and changed unit)."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_budgeted": {
+        "value": 350.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 92,
+        "notes": "Highest scoring candidate (0.93), explicitly 'Budgeted' data type, found in a table, and maintains strong time series coherence with a 6.1% growth from 2024. This value is identical to candidate 1 (350 billio... Critic confidence: 0.93, Verification confidence: 0.95. Growth rate 6.1% from 2024 - reasonable. UNIT CORRECTED: 350,000 million -> 350.0 billion (divided by 1000 and changed unit)."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_capital_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 356.429957,
+  "extraction_date": "2025-10-31T11:30:14.621733"
+}

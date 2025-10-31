@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "total_revenue_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_budgeted": {
+        "value": 1800.0,
+        "unit": "million KES",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c09ac7",
+        "source_page": 7,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence (header_match, in_table). Other candidates were rejected due to data type mismatch or an ambiguous raw KES unit. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_budgeted": {
+        "value": 2000.0,
+        "unit": "million KES",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c1b084",
+        "source_page": 3,
+        "notes": "Highest scoring candidate with explicit 'Budgeted' data type and strong table evidence. The value provides a coherent year-over-year growth of 11.11% from 2020. Candidate 1 was also valid but scored slightly lower. Critic confidence: 0.92, Verification confidence: 0.95, Year-over-year growth: 11.11% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_budgeted": {
+        "value": 2200.0,
+        "unit": "million KES",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. The value provides a coherent year-over-year growth of 10.0% from 2021. Candidate 1 was also valid but scored slightly lower. Critic confidence: 0.90, ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: PDF file missing - verification impossible, Year-over-year growth: 10.0% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_budgeted": {
+        "value": 2450.0,
+        "unit": "million KES",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. The value provides a coherent year-over-year growth of 11.36% from 2022. Candidate 1 was valid but scored lower, and Candidate 2 was a significant outlier in magnitude. Critic confidence: 0.93, Verification confidence: 0.95, Year-over-year growth: 11.36% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_budgeted": {
+        "value": 2600.0,
+        "unit": "million KES",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest scoring candidate with 'Budgeted' data type and strong table evidence. The value provides a coherent year-over-year growth of 6.12% from 2023. Candidate 1 was also valid but scored slightly lower. Critic confidence: 0.94, Verification confidence: 0.95, Year-over-year growth: 6.12% - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_total_revenue_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 1736.137217,
+  "extraction_date": "2025-10-31T11:24:16.857880"
+}

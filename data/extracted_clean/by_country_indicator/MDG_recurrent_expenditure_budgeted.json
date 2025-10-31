@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "recurrent_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_budgeted": {
+        "value": 4.5,
+        "unit": "trillion NGN",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Highest scoring candidate, explicit 'Budgeted' data type, found in table with header match. Consistent unit with other years. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_budgeted": {
+        "value": 5.0,
+        "unit": "trillion NGN",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
+        "source_page": 13,
+        "notes": "Highest scoring candidate, explicit 'Budgeted' data type, found in table with header match. Unit directly in trillions, maintaining consistency. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate of 11.1% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_budgeted": {
+        "value": 6.2,
+        "unit": "trillion NGN",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
+        "source_page": 13,
+        "notes": "Highest scoring candidate, explicit 'Budgeted' data type, found in table with header match. Unit directly in trillions, maintaining consistency. Critic confidence: 0.96, Verification confidence: 0.95, Growth rate of 24.0% from 2021 - higher but plausible for budget estimates"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_budgeted": {
+        "value": 7.0,
+        "unit": "trillion NGN",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_22160b",
+        "source_page": 132,
+        "notes": "Highest scoring candidate, explicit 'Budgeted' data type, found in table with header match. Consistent unit with other years. Critic confidence: 0.94, Verification confidence: 0.95, Growth rate of 12.9% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_budgeted": {
+        "value": 8.0,
+        "unit": "trillion NGN",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
+        "source_page": 16,
+        "notes": "Highest scoring candidate, explicit 'Budgeted' data type ('proposed'), found in table with header match. Consistent unit with other years. Critic confidence: 0.97, Verification confidence: 0.95, Growth rate of 14.3% from 2023 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_recurrent_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 1173.092356,
+  "extraction_date": "2025-10-31T09:47:40.376271"
+}

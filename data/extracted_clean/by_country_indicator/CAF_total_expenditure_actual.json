@@ -1,0 +1,70 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "total_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_actual": {
+        "value": 1100.5,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest-scoring candidate (0.95), correct data type (Actual), consistent unit, and in table. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_actual": {
+        "value": 1180.2,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest-scoring candidate (0.92), correct data type (Actual), consistent unit, and in table. Critic confidence: 0.92, Verification confidence: 0.9, Growth rate from 2020: 7.24%."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_actual": {
+        "value": 1250.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest-scoring candidate (0.90), correct data type (Actual), consistent unit, and in table. Critic confidence: 0.9, Verification confidence: 0.93, Growth rate from 2021: 5.91%."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_actual": {
+        "value": 1400.0,
+        "unit": "billion XAF",
+        "data_type": "Revised estimate",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest-scoring candidate (0.91), correct data type (Revised estimate), consistent unit, and in table. Critic confidence: 0.91, Verification confidence: 0.9, Growth rate from 2022: 12.00%."
+      }
+    },
+    {
+      "fiscal_year": 2024
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_total_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 2
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1721.588865,
+  "extraction_date": "2025-10-31T03:28:58.383167"
+}

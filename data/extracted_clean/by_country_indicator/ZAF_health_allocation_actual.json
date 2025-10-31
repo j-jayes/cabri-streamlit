@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "health_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_actual": {
+        "value": 220.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2021_Approval_External_CitizensBudget_NationalTreasury_SADC_English_ebd4c9-0",
+        "source_page": 1,
+        "notes": "Clear table evidence, correct data type (Actual), explicit year mention, and plausible magnitude. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_actual": {
+        "value": 235.2,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2021_Approval_External_CitizensBudget_NationalTreasury_SADC_English_ebd4c9-0",
+        "source_page": 1,
+        "notes": "Strong table evidence, correct data type (Actual), and plausible magnitude/unit. Growth rate of 6.7% is reasonable. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate 6.7% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_actual": {
+        "value": 250.8,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "High score, strong table evidence, correct data type (Actual), and plausible magnitude. Growth rate of 6.6% is reasonable. Critic confidence: 0.94, Verification confidence: 0.95, Growth rate 6.6% from 2021 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_actual": {
+        "value": 268.0,
+        "unit": "billion ZAR",
+        "data_type": "Revised estimate",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "Best available data type ('Revised estimate' is acceptable as a strong proxy for actuals), good evidence, and plausible magnitude. Growth rate of 6.9% is reasonable. Critic confidence: 0.90, Verification confidence: 0.95, Growth rate 6.9% from 2022 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_actual": {
+        "value": 280.5,
+        "unit": "billion ZAR",
+        "data_type": "Estimate",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 11,
+        "notes": "Best available data type for a future year ('Estimate'), plausible magnitude/unit, good evidence. Growth rate of 4.7% is reasonable. Critic confidence: 0.88, Verification confidence: 0.95, Growth rate 4.7% from 2023 - reasonable, noting it is based on an estimate."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_actual": {
+        "value": 290.0,
+        "unit": "billion ZAR",
+        "data_type": "Forecast",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_b3c994",
+        "source_page": 12,
+        "notes": "For a future year, 'Forecast' is a more suitable proxy for 'actual' than 'Proposed' budget, reflecting a projection of expected outcomes. Growth rate of 3.4% is reasonable. Critic confidence: 0.70, Verification confidence: 0.95, Growth rate 3.4% from 2024 - reasonable, noting it is based on a forecast, hence lower confidence., Data for 2025 is a forecast, not an actual or revised estimate."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_health_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 458.363454,
+  "extraction_date": "2025-10-31T10:04:49.443956"
+}

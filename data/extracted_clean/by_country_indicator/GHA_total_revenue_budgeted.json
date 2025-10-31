@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "total_revenue_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_budgeted": {
+        "value": 67.1,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 10,
+        "notes": "Strong candidate with 'Estimate' data type and in-table evidence, directly matching 'budgeted' requirement. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_budgeted": {
+        "value": 72.4,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_ff035a",
+        "source_page": 28,
+        "notes": "Strong candidate with 'Estimate' data type and in-table evidence, best fit for 'budgeted'. Value is consistent with modest growth from prior year. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate 7.9% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_budgeted": {
+        "value": 100.5,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_e1b604",
+        "source_page": 12,
+        "notes": "Best candidate with explicit 'Budgeted' data type and strong in-table evidence, providing the highest individual score. Critic confidence: 0.88, Verification confidence: 0.95. WARNING: Growth rate 38.8% from 2021 - unusually high, possibly reflecting ambitious budget targets post-COVID or new revenue mobilization efforts under an IMF program."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_budgeted": {
+        "value": 143.2,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_da6aab",
+        "source_page": 24,
+        "notes": "Best candidate with explicit 'Budgeted' data type and strong in-table evidence, providing the highest individual score. Critic confidence: 0.88, Verification confidence: 0.95. WARNING: Growth rate 42.5% from 2022 - exceptionally high, likely indicative of aggressive revenue projections tied to economic reforms and debt restructuring."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_budgeted": {
+        "value": 176.4,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_37f0e4",
+        "source_page": 13,
+        "notes": "Best candidate with explicit 'Budgeted' data type and strong in-table evidence, providing the highest individual score. Critic confidence: 0.88, Verification confidence: 0.95. Growth rate 23.2% from 2023 - high, but shows moderation compared to previous years."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_revenue_budgeted": {
+        "value": 203.8,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 12,
+        "notes": "Strong candidate with 'Projected' data type, which is suitable for future budgeted figures, and solid in-table evidence. Critic confidence: 0.85, Verification confidence: 0.95. Growth rate 15.5% from 2024 - reasonable for a budgeted projection."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_total_revenue_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 211.459257,
+  "extraction_date": "2025-10-31T07:11:56.310353"
+}

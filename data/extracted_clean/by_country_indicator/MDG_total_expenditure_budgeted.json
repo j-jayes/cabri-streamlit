@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "total_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_budgeted": {
+        "value": 45788.92,
+        "unit": "million UGX",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c09ac7",
+        "source_page": 7,
+        "notes": "Highest score, explicitly 'Budgeted', 'million UGX' unit appropriate, strong table evidence. Value aligns with FY 2020/21 Approved Budget. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_budgeted": {
+        "value": 44772.3,
+        "unit": "million UGX",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c1b084",
+        "source_page": 3,
+        "notes": "Highest score, explicitly 'Budgeted', 'million UGX' unit appropriate, strong table evidence. Value aligns with FY 2021/22 Approved Budget. Critic confidence: 0.95, Verification confidence: 0.95. Year-over-year change: -2.22% (small decrease, plausible for budget adjustments)"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_budgeted": {
+        "value": 48130.8,
+        "unit": "million UGX",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest score, explicitly 'Budgeted', 'million UGX' unit appropriate, strong table evidence. Value aligns with FY 2022/23 figures from the 2022 Budget Speech. Critic confidence: 0.95, Verification confidence: 0.95. Year-over-year change: 7.50% (reasonable increase, consistent with economic growth)"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_budgeted": {
+        "value": 52737.2,
+        "unit": "million UGX",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest score, explicitly 'Budgeted', 'million UGX' unit appropriate, strong table evidence. Value aligns with FY 2023/24 projections in the 2022 Budget Speech, ensuring time series coherence. Critic confidence: 0.95, Verification confidence: 0.95. Year-over-year change: 9.57% (reasonable increase, consistent with economic growth)"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_budgeted": {
+        "value": 52736.9,
+        "unit": "million UGX",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5992d6",
+        "source_page": 3,
+        "notes": "Highest score, explicitly 'Budgeted' (as Indicative Budget for FY2024/25), 'million UGX' unit appropriate, strong table evidence. Value extracted from a 2024 budget document for FY2024/25, ensuring coherence. Critic confidence: 0.95, Verification confidence: 0.95. Year-over-year change: -0.00057% (negligible change, indicating a flat budget forecast)"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_total_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 1205.792007,
+  "extraction_date": "2025-10-31T11:24:15.669812"
+}

@@ -1,0 +1,78 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "agriculture_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_budgeted": {
+        "value": 1445.6,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_0cdd8f",
+        "source_page": 13,
+        "notes": "Candidate explicitly states 'Budgeted' data type, unit is appropriate for national allocation, and score is high. This forms a coherent baseline for the series.Critic confidence: 0.9Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_budgeted": {
+        "value": 1460.0,
+        "unit": "Million Ghana Cedis",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2022_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_73c0d8",
+        "source_page": 23,
+        "notes": "Candidate explicitly states 'Budget Estimate' data type, unit is appropriate, and score is high. Growth rate of 1.0% from 2020 is highly plausible.Critic confidence: 0.9Verification confidence: 0.95Growth rate 2020-2021: 1.0% (plausible)"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_budgeted": {
+        "value": 1572.2,
+        "unit": "Million Ghana Cedis",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_8e7730",
+        "source_page": 101,
+        "notes": "Candidate explicitly states 'Budget Estimate' data type, unit is consistent, and score is high. Growth rate of 7.7% from 2021 is reasonable for a budgeted allocation.Critic confidence: 0.9Verification confidence: 0.95Growth rate 2021-2022: 7.7% (reasonable)"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_budgeted": {
+        "value": 1789.4,
+        "unit": "Million Ghana Cedis",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_8e7730",
+        "source_page": 101,
+        "notes": "Candidate explicitly states 'Budget Estimate' data type, unit is consistent, and score is high. Growth rate of 13.8% from 2022 is within plausible limits.Critic confidence: 0.9Verification confidence: 0.95Growth rate 2022-2023: 13.8% (plausible)"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_budgeted": {
+        "value": 2005.1,
+        "unit": "Million Ghana Cedis",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_MidYearReview_Institution_ECOWASCEN-SAD_English_bbbf0b",
+        "source_page": 2,
+        "notes": "Candidate explicitly states 'Budget Estimate' data type, unit is consistent, and score is high. Growth rate of 12.1% from 2023 maintains strong time series coherence.Critic confidence: 0.9Verification confidence: 0.95Growth rate 2023-2024: 12.1% (plausible)"
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_agriculture_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 129.855222,
+  "extraction_date": "2025-10-31T09:10:36.551021"
+}

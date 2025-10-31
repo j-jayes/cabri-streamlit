@@ -1,0 +1,78 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "debt_service_cost_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_actual": {
+        "value": 900.5,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "doc20A1",
+        "source_page": 25,
+        "notes": "Explicitly 'Actual' data type, high score, and found in table. Magnitude and unit are appropriate for debt service. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_actual": {
+        "value": 1050.8,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "doc21A1",
+        "source_page": 30,
+        "notes": "Highest score, explicitly 'Actual' data type, found in table. Magnitude and unit are appropriate and consistent with prior year. Growth rate of 16.7% is plausible. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2020: 16.7% - reasonable for debt service."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_actual": {
+        "value": 1250.3,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "doc22A1",
+        "source_page": 35,
+        "notes": "Highest score, explicitly 'Actual' data type, and found in table. Magnitude and unit are appropriate and consistent with prior years. Growth rate of 19.0% is plausible. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate from 2021: 19.0% - reasonable for debt service."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_actual": {
+        "value": 1450.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "doc23B1",
+        "source_page": 40,
+        "notes": "Explicitly 'Actual' data type and higher score compared to other 'Actual' or 'Revised estimate' candidates. Found in table. Growth rate of 16.0% is plausible. Critic confidence: 0.9, Verification confidence: 0.95, Growth rate from 2022: 16.0% - reasonable for debt service."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_actual": {
+        "value": 1750.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "doc24C1",
+        "source_page": 45,
+        "notes": "Explicitly 'Actual' data type and highest score among valid candidates. Found in table. Growth rate of 20.7% is plausible. Critic confidence: 0.9, Verification confidence: 0.95, Growth rate from 2023: 20.7% - reasonable for debt service."
+      }
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_debt_service_cost_actual.json",
+    "rerun_file": "data\\extracted_rerun\\by_country_indicator\\KEN_debt_service_cost_actual.json",
+    "merge_stats": {
+      "original": 0,
+      "rerun_filled_gap": 2,
+      "rerun_replaced": 3,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 198.388168,
+  "extraction_date": "2025-10-31T11:44:25.547627"
+}

@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "total_revenue_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_actual": {
+        "value": 1400.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetProposal_NationalTreasury_SADC_English_0011e8",
+        "source_page": 99,
+        "notes": "Best candidate with 'Actual' data type, high score (0.95), and strong table evidence. Consistent with time series. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_actual": {
+        "value": 1550.8,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetProposal_NationalTreasury_SADC_English_0011e8",
+        "source_page": 99,
+        "notes": "Best candidate with 'Actual' data type, good score (0.93), and strong table evidence. Growth rate of 10.73% from 2020 is plausible and coherent. Critic confidence: 0.93, Verification confidence: 0.85. Growth rate from 2020: 10.73% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_actual": {
+        "value": 1705.2,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetProposal_NationalTreasury_SADC_English_0011e8",
+        "source_page": 99,
+        "notes": "Highest scored candidate (0.96) with 'Actual' data type and strong table evidence. Growth rate of 9.95% from 2021 is plausible and maintains coherence. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate from 2021: 9.95% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_actual": {
+        "value": 1850.1,
+        "unit": "billion ZAR",
+        "data_type": "Revised estimate",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetProposal_NationalTreasury_SADC_English_0011e8",
+        "source_page": 99,
+        "notes": "Best candidate with 'Revised estimate' data type, which is acceptable for 'actual'. High score (0.94) and strong table evidence. Growth rate of 8.50% from 2022 is plausible. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate from 2022: 8.50% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_actual": {
+        "value": 1980.5,
+        "unit": "billion ZAR",
+        "data_type": "Revised estimate",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetProposal_NationalTreasury_SADC_English_0011e8",
+        "source_page": 99,
+        "notes": "Best candidate with 'Revised estimate' data type, acceptable for 'actual' projections. Good score (0.90) and strong table evidence. Growth rate of 7.05% from 2023 is plausible. Critic confidence: 0.90, Verification confidence: 0.95. Growth rate from 2023: 7.05% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_revenue_actual": {
+        "value": 2100.0,
+        "unit": "billion ZAR",
+        "data_type": "Estimate",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetProposal_NationalTreasury_SADC_English_22e420",
+        "source_page": 83,
+        "notes": "Best available candidate using 'Estimate' data type, which is the closest for a future 'actual' value. Good score (0.85) and strong table evidence. Growth rate of 6.03% from 2024 is plausible. Critic confidence: 0.85, Verification confidence: 0.95. Growth rate from 2024: 6.03% - plausible"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_total_revenue_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 441.864334,
+  "extraction_date": "2025-10-31T09:55:40.712161"
+}

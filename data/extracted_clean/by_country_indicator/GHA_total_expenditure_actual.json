@@ -1,0 +1,70 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "total_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_actual": {
+        "value": 100.5,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 9,
+        "notes": "Highest scored actual data, explicit year mention, in table, and good data type fit. Chosen to establish initial trend. Critic confidence: 0.95, Verification confidence: 0.98"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_actual": {
+        "value": 115.2,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2021_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_ff035a",
+        "source_page": 27,
+        "notes": "Highest scored actual data, explicit year mention, in table, and good data type fit. Shows consistent growth and unit with 2020. Critic confidence: 0.98, Verification confidence: 0.98. Growth rate 14.63% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_actual": {
+        "value": 125.8,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2024_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_e1b604",
+        "source_page": 12,
+        "notes": "Highest scored actual data, explicit year mention, in table, and good data type fit. Consistent with time series trend and units. Critic confidence: 0.97, Verification confidence: 0.98. Growth rate 9.20% from 2021 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_actual": {
+        "value": 130.1,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2023_Execution_External_YearEndReport_MinistryOfFinance_ECOWASCEN-SAD_English_fc1927",
+        "source_page": 10,
+        "notes": "Chosen as 'Revised estimate' is an acceptable data type for an 'actual' indicator for the latest reported year when final actuals are not yet available. Good evidence and consistent with the previous year's trend. Critic confidence: 0.90, Verification confidence: 0.98. Growth rate 3.42% from 2022 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_total_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 2
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 194.419252,
+  "extraction_date": "2025-10-31T07:30:39.345234"
+}

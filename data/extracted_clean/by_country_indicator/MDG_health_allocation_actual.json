@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "health_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_actual": {
+        "value": 12.5,
+        "unit": "percent",
+        "data_type": "Actual",
+        "source_document": "doc20a",
+        "source_page": 20,
+        "notes": "Clear table evidence, correct data type (Actual), appropriate unit (percent) for health allocation. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_actual": {
+        "value": 13.2,
+        "unit": "percent",
+        "data_type": "Actual",
+        "source_document": "doc21a",
+        "source_page": 22,
+        "notes": "Strong table evidence, correct data type (Actual), appropriate unit (percent). This value results in a reasonable 5.6% growth from 2020. Critic confidence: 0.92, Verification confidence: 0.92. Growth rate from 2020 is 5.6%, which is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_actual": {
+        "value": 14.0,
+        "unit": "percent",
+        "data_type": "Actual",
+        "source_document": "doc22a",
+        "source_page": 25,
+        "notes": "Highest score, strong table evidence, and explicitly 'Actual' data type with appropriate unit. Candidate 1 is 'Revised estimate' which is acceptable but C0 is better. Candidate 2 value is implausibly low. Critic confidence: 0.95, Verification confidence: 0.95. Growth rate from 2021 is 6.06%, which is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_actual": {
+        "value": 15.0,
+        "unit": "percent",
+        "data_type": "Actual",
+        "source_document": "doc23c",
+        "source_page": 55,
+        "notes": "Candidate with 'Actual' data type was chosen, despite slightly lower score (0.85 vs 0.91 for C1 'Revised estimate'). Choosing this value (15.0%) maintains a more plausible upward trend in the time series (7.14% growth vs... Critic confidence: 0.85, Verification confidence: 0.9. Re-evaluated: Candidate 2 chosen (Actual data type) for better time series coherence, despite slightly lower individual score than Candidate 1 (Revised estimate). Growth rate from 2022 is 7.14%, maintaining a consistent upward trend."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_actual": {
+        "value": 14.8,
+        "unit": "percent",
+        "data_type": "Revised estimate",
+        "source_document": "doc24c",
+        "source_page": 30,
+        "notes": "Only candidate with acceptable data type ('Revised estimate') and strong table evidence. Other candidates were 'Budgeted' or 'Proposed'. Critic confidence: 0.9, Verification confidence: 0.9. Growth rate from 2023 is -1.33%, a slight decrease which is plausible for a revised estimate."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_health_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 281.65632,
+  "extraction_date": "2025-10-31T09:42:33.046737"
+}

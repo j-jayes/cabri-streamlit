@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "agriculture_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_budgeted": {
+        "value": 62.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "713f0e",
+        "source_page": 36,
+        "notes": "Strongest candidate: explicitly 'Proposed allocation' for the correct fiscal year (2020/21), high score (0.95), and found in a table. Other candidates were rejected due to data type mismatch ('Revised Estimate' or 'Actual'). Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_budgeted": {
+        "value": 69.8,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "c7e1f4",
+        "source_page": 42,
+        "notes": "Best candidate: explicitly 'Proposed allocation' for the correct fiscal year (2021/22), high score (0.94), and good evidence. Other candidates were rejected due to data type mismatch ('Actual' or 'Revised Estimate'). Growth from 2020 is a plausible 12.6%. Critic confidence: 0.94, Verification confidence: 0.95, Growth rate from previous year: 12.6% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_budgeted": {
+        "value": 70.3,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "6e2b9c",
+        "source_page": 45,
+        "notes": "Optimal candidate: clearly stated as 'Proposed allocation' for FY 2022/23, highest score (0.96), with strong tabular evidence. Rejected others for incorrect data type. Growth from 2021 is a modest 0.7%, maintaining coherence. Critic confidence: 0.96, Verification confidence: 0.95, Growth rate from previous year: 0.7% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_budgeted": {
+        "value": 75.6,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "8c3b1d",
+        "source_page": 50,
+        "notes": "Selected candidate: explicitly 'Proposed allocation' for FY 2023/24, highest score (0.97), and solid evidence in a table. Other candidates were 'Actual' or 'Revised Estimate'. Growth rate of 7.5% from 2022 is consistent with trends. Critic confidence: 0.97, Verification confidence: 0.95, Growth rate from previous year: 7.5% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_budgeted": {
+        "value": 80.1,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "8c3b1d",
+        "source_page": 50,
+        "notes": "Highest quality candidate: clearly 'Proposed allocation' for FY 2024/25, excellent score (0.98), and strong tabular evidence. All other candidates were excluded due to incompatible data types. Growth from 2023 is a stable 6.0%. Critic confidence: 0.98, Verification confidence: 0.95, Growth rate from previous year: 6.0% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "agriculture_allocation_budgeted": {
+        "value": 84.5,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "8c3b1d",
+        "source_page": 50,
+        "notes": "Optimal selection: explicitly 'Proposed allocation' for FY 2025/26, high score (0.97), and strong evidence from a table. Rejected other candidates for incompatible data types. The 5.5% growth from 2024 is well within expected range. Critic confidence: 0.97, Verification confidence: 0.95, Growth rate from previous year: 5.5% - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_agriculture_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 2024.764569,
+  "extraction_date": "2025-10-31T11:24:17.924888"
+}

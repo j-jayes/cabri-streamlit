@@ -1,0 +1,87 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "capital_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_actual": {
+        "value": 150.0,
+        "unit": "million ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "[CLEANED] Divided by 1000. Unit error: value in billion instead of million. (Original: 150,000.00) | Strongest candidate: 'Actual' data type, high score (0.95), explicit year mention, and found in table. Critic confidence: 0.95, Verification confidence: 0.98",
+        "original_value": 150000.0
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_actual": {
+        "value": 160.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 123,
+        "notes": "Best candidate: 'Actual' data type, high score (0.93), explicit year mention, and found in table. Shows a reasonable 6.7% growth from 2020. Critic confidence: 0.93, Verification confidence: 0.9. Growth rate 6.7% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_actual": {
+        "value": 175.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Best candidate: 'Actual' data type, highest score (0.96), explicit year mention, and found in table. Consistent 9.4% growth from 2021. Critic confidence: 0.96, Verification confidence: 0.98. Growth rate 9.4% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_actual": {
+        "value": 185.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Best candidate: 'Actual' data type, high score (0.94), explicit year mention, and found in table. Consistent 5.7% growth from 2022. Critic confidence: 0.94, Verification confidence: 0.98. Growth rate 5.7% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_actual": {
+        "value": 250.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2024_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_8661d7-0",
+        "source_page": 21,
+        "notes": "Best candidate: 'Actual' data type, high score (0.92), and found in table. The context snippet mentioning 'Significant infrastructure investment' provides a plausible explanation for the 35.1% grow. Critic confidence: 0.88, Verification confidence: 0.9. WARNING: High growth rate (35.1%) from 2023. Potentially explained by 'Significant infrastructure investment' in context."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_actual": {
+        "value": 260.0,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 92,
+        "notes": "Best available candidate: 'Revised estimate' is acceptable for 'Actual' and has strong evidence (0.88 score, in table). Shows a plausible 4.0% growth from 2024. ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: PDF file missing - verification impossible. Critic confidence: 0.85. Growth rate 4.0% from 2024 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_capital_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 512.778126,
+  "extraction_date": "2025-10-31T10:04:15.034207"
+}

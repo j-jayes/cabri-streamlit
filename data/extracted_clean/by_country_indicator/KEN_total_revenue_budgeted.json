@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "total_revenue_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_budgeted": {
+        "value": 2400.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "Strong evidence (in-table, header match), correct data type (Budgeted), and plausible magnitude (billion KES). Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_budgeted": {
+        "value": 2600.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "High-quality candidate (in-table, header match) with correct data type and appropriate unit. Maintains coherence with previous year (8.33% growth). Critic confidence: 0.93, Verification confidence: 0.95. Growth rate from 2020: 8.33% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_budgeted": {
+        "value": 2900.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 81,
+        "notes": "Strongest candidate with excellent evidence quality (in-table, header match), correct data type, and unit. Aligns well with time series trend (11.54% growth). Critic confidence: 0.96, Verification confidence: 0.95. Growth rate from 2021: 11.54% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_budgeted": {
+        "value": 3200.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_eeb32e",
+        "source_page": 11,
+        "notes": "Excellent candidate quality (in-table, header match) matching data type and unit. Continues the observed growth trend (10.34% growth). Critic confidence: 0.94. Growth rate from 2022: 10.34% - reasonable. ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: CRITICAL UNIT MAGNITUDE MISMATCH: PDF shows 'million KES' but expected 'billion KES' - possible 1000x error. No strong indicator keywords ('revenue', 'income') found near value. No strong budget-related keywords ('budgeted', 'estimates') found near value. No explicit year reference ('2023', 'FY2023') found near value."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_budgeted": {
+        "value": 3500.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_eeb32e",
+        "source_page": 23,
+        "notes": "Highest scoring candidate with robust evidence (in-table, header match), correct data type, and unit. Maintains consistent growth with prior years (9.38% growth). Critic confidence: 0.97, Verification confidence: 0.95. Growth rate from 2023: 9.38% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_revenue_budgeted": {
+        "value": 3800.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Strong evidence (in-table, header match) and correct data type/unit. The value provides a consistent upward trend (8.57% growth) in the time series. Critic confidence: 0.95. Growth rate from 2024: 8.57% - reasonable. ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: PDF file missing - verification impossible"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_total_revenue_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1037.792169,
+  "extraction_date": "2025-10-31T08:13:04.994058"
+}

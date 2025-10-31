@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "recurrent_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_budgeted": {
+        "value": 1459.7,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "208f75",
+        "source_page": 1,
+        "notes": "Highest scored candidate with clear table evidence and correct data type (Budgeted). Critic confidence: 0.99, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_budgeted": {
+        "value": 1509.3,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "208f75",
+        "source_page": 5,
+        "notes": "Selected despite a slightly lower score (0.88) because it is from a 2021 document ('Kenya_2021_Budget_Review'), providing the most up-to-date budgeted figure for 2021 compared to earlier estimates from 2020 docume Critic confidence: 0.88, Verification confidence: 0.95 Flags: Growth rate 3.39% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_budgeted": {
+        "value": 1818.1,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "208f75",
+        "source_page": 1,
+        "notes": "Selected as the most recent budgeted figure for 2022 from a 2022 document ('Kenya_2022_Budget_Review'). This aligns with the strategy of preferring the latest available estimate for a given budget year. Critic confidence: 0.95, Verification confidence: 0.95 Flags: Growth rate 20.46% from 2021 - significant but potentially plausible (e.g., post-COVID recovery, reclassification, or specific policy changes)."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_budgeted": {
+        "value": 2154.6,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "922c24",
+        "source_page": 28,
+        "notes": "Selected as the most recent budgeted figure for 2023 from a 2023 document ('Kenya_2023_Budget_Review'). Critic confidence: 0.95, Verification confidence: 0.95 Flags: Growth rate 18.51% from 2022 - significant but potentially plausible, continuing the trend from the previous year."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_budgeted": {
+        "value": 2269.8,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "661ade",
+        "source_page": 1,
+        "notes": "Highest scored candidate for this future year estimate, from a recent 2023 document ('Kenya_2023_Budget_Review'), providing strong table evidence and header match. Critic confidence: 0.99, Verification confidence: 0.95 Flags: Growth rate 5.35% from 2023 - reasonable, indicating a normalization of budget growth."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "recurrent_expenditure_budgeted": {
+        "value": 2394.3,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "661ade",
+        "source_page": 1,
+        "notes": "Highest scored candidate for this future year estimate, from a recent 2023 document ('Kenya_2023_Budget_Review'), providing strong table evidence and header match. Critic confidence: 0.99, Verification confidence: 0.95 Flags: Growth rate 5.40% from 2024 - reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_recurrent_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 650.774199,
+  "extraction_date": "2025-10-31T08:13:05.900099"
+}

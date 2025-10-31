@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "health_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_budgeted": {
+        "value": 90.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2020a",
+        "source_page": 45,
+        "notes": "Highest scoring candidate with explicit 'Budgeted' data type and strong in-table evidence. Unit (billion KES) is appropriate. Critic confidence: 0.95, Verification confidence: 0.85"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_budgeted": {
+        "value": 100.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2021a",
+        "source_page": 30,
+        "notes": "Highest scoring candidate with clear 'Budgeted' data type and excellent in-table evidence. Unit (billion KES) is consistent. Growth rate of 11.11% from 2020 - reasonable. Critic confidence: 0.98, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_budgeted": {
+        "value": 110.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2022a",
+        "source_page": 50,
+        "notes": "Highest scoring candidate with clear 'Budgeted' data type and strong in-table evidence. Unit (billion KES) is consistent. Growth rate of 10.00% from 2021 - reasonable. Critic confidence: 0.93, Verification confidence: 0.88"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_budgeted": {
+        "value": 130.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2023a",
+        "source_page": 35,
+        "notes": "Highest scoring candidate in local currency (KES) with clear 'Budgeted' data type and excellent in-table evidence. Preferred over USD value for consistency. Growth rate of 18.18% from 2022 - higher but plausible for increased health focus post-pandemic. Critic confidence: 0.96, Verification confidence: 0.93"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_budgeted": {
+        "value": 135.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2024a",
+        "source_page": 60,
+        "notes": "Highest scoring candidate in local currency (KES) with clear 'Budgeted' data type and strong in-table evidence. Preferred over USD value for consistency. Growth rate of 3.85% from 2023 - reasonable. Critic confidence: 0.90, Verification confidence: 0.87"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_budgeted": {
+        "value": 140.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "doc2025a",
+        "source_page": 70,
+        "notes": "Highest scoring candidate in preferred unit with 'Budgeted' data type and strong in-table evidence. Growth rate of 3.70% from 2024 - reasonable. Critic confidence: 0.85, Verification confidence: 0.85"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_health_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1729.855648,
+  "extraction_date": "2025-10-31T11:14:55.814755"
+}

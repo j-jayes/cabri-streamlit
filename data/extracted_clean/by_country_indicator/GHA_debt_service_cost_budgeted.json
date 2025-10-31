@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "debt_service_cost_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_budgeted": {
+        "value": 25.5,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 9,
+        "notes": "Highest score candidate with explicit 'Budgeted' data type and strong table evidence. Value in billion GHS is consistent. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_budgeted": {
+        "value": 32.1,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2022_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_899532",
+        "source_page": 51,
+        "notes": "Best candidate with explicit 'Budgeted' type and strongest table evidence. Value in billion GHS aligns with previous year's unit. Critic confidence: 0.98, Verification confidence: 0.95. Year-over-year growth: 25.88% - plausible given Ghana's debt situation."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_budgeted": {
+        "value": 45.0,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_DebtReport_Institution_ECOWASCEN-SAD_English_9cdcc4",
+        "source_page": 19,
+        "notes": "Highest scoring candidate, clearly marked 'Budgeted' and found in a table. Unit in billion GHS maintains consistency. Critic confidence: 0.97, Verification confidence: 0.95. Year-over-year growth: 40.19% - high but plausible for debt service in a challenging economic period."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_budgeted": {
+        "value": 58.2,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_da6aab",
+        "source_page": 49,
+        "notes": "Top candidate with highest score, 'Budgeted' type, and robust table evidence. Unit in billion GHS ensures series consistency. Critic confidence: 0.99, Verification confidence: 0.95. Year-over-year growth: 29.33% - significant but within plausible range for Ghana's debt service trajectory."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_budgeted": {
+        "value": 65.5,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_DebtReport_Institution_ECOWASCEN-SAD_English_9cdcc4",
+        "source_page": 46,
+        "notes": "Best candidate, explicitly 'Budgeted' and found in a table. Unit 'billion GHS' maintains unit consistency across the series. Critic confidence: 0.96, Verification confidence: 0.95. Year-over-year growth: 12.54% - indicates a more moderate, but still substantial, increase in debt service costs."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "debt_service_cost_budgeted": {
+        "value": 72.0,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 13,
+        "notes": "Chosen for its strong evidence (in table), 'Budgeted' data type, and maintaining the 'billion GHS' unit consistency. Critic confidence: 0.94, Verification confidence: 0.95. Year-over-year growth: 9.92% - continued moderate growth in budgeted debt service."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_debt_service_cost_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 3002.278296,
+  "extraction_date": "2025-10-31T11:26:34.574439"
+}

@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "recurrent_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_budgeted": {
+        "value": 237.9,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Critic confidence: 0.95, Verification confidence: 0.90"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_budgeted": {
+        "value": 279.7,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Growth rate of 17.57% from 2020 is plausible for budgeted expenditure. Critic confidence: 0.95, Verification confidence: 0.90, Growth rate from previous year: 17.57% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_budgeted": {
+        "value": 308.9,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Growth rate of 10.44% from 2021 is plausible. Critic confidence: 0.95, Verification confidence: 0.90, Growth rate from previous year: 10.44% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_budgeted": {
+        "value": 335.7,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Growth rate of 8.67% from 2022 is plausible. Critic confidence: 0.95, Verification confidence: 0.90, Growth rate from previous year: 8.67% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_budgeted": {
+        "value": 370.2,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Growth rate of 10.27% from 2023 is plausible. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate from previous year: 10.27% - plausible"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "recurrent_expenditure_budgeted": {
+        "value": 396.9,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate with correct data type (Budgeted) and unit. Data is from a table with header match, indicating high quality. Growth rate of 7.21% from 2024 is plausible. Critic confidence: 0.95, Verification confidence: 0.90, Growth rate from previous year: 7.21% - plausible"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_recurrent_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 648.088505,
+  "extraction_date": "2025-10-31T04:00:03.079910"
+}

@@ -1,0 +1,70 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "capital_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_actual": {
+        "value": 50.2,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Clear actual data type, appropriate unit, and high score. Forms a coherent series. Critic confidence: 0.92, Verification confidence: 0.85"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_actual": {
+        "value": 55.8,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Clear actual data type, appropriate unit, and high score. Growth of 11.15% from 2020 is plausible and maintains time series coherence. Critic confidence: 0.90, Verification confidence: 0.85. Growth rate from previous year: 11.15% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_actual": {
+        "value": 62.1,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Clear actual data type, appropriate unit, and high score. Growth of 11.29% from 2021 is plausible and maintains time series coherence. Critic confidence: 0.93, Verification confidence: 0.85. Growth rate from previous year: 11.29% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_actual": {
+        "value": 68.0,
+        "unit": "billion XAF",
+        "data_type": "Actual",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "'Revised estimate' is an acceptable data type for 'actual' indicators. Appropriate unit and good score. Growth of 9.50% from 2022 is plausible and maintains time series coherence. Critic confidence: 0.91, Verification confidence: 0.85. Growth rate from previous year: 9.50% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2024
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_capital_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 2
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1814.606137,
+  "extraction_date": "2025-10-31T05:11:16.203903"
+}

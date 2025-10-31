@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "total_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_budgeted": {
+        "value": 90.3,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 9,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Unit 'billion GHS' is appropriate for the magnitude. Critic confidence: 0.95, Verification confidence: 0.95. Growth rate to 2021: 26.0% - plausible for budgeted expenditure in a developing economy."
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_budgeted": {
+        "value": 113.8,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_ff035a",
+        "source_page": 27,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Consistent unit and magnitude with prior year. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate from 2020: 26.0% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_budgeted": {
+        "value": 137.5,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_e1b604",
+        "source_page": 12,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Consistent unit and magnitude with prior year. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate from 2021: 20.8% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_budgeted": {
+        "value": 169.8,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Execution_External_YearEndReport_MinistryOfFinance_ECOWASCEN-SAD_English_fc1927",
+        "source_page": 10,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Consistent unit and magnitude with prior year. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate from 2022: 23.5% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_budgeted": {
+        "value": 208.5,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 13,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Consistent unit and magnitude with prior year. Critic confidence: 0.97, Verification confidence: 0.95. Growth rate from 2023: 22.8% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_expenditure_budgeted": {
+        "value": 255.0,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 13,
+        "notes": "Highest score, explicit 'Budgeted' data type, and confirmed 'in_table'. Consistent unit and magnitude with prior year. Critic confidence: 0.98, Verification confidence: 0.95. Growth rate from 2024: 22.3% - plausible."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_total_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 162.251771,
+  "extraction_date": "2025-10-31T07:17:38.233604"
+}

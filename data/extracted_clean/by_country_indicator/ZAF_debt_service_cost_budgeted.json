@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "debt_service_cost_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_budgeted": {
+        "value": 227.7,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
+        "source_page": 1,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted), and consistent with other candidates in terms of magnitude. Critic confidence: 0.95, Verification confidence: 1.0"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_budgeted": {
+        "value": 271.7,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_2e62b5",
+        "source_page": 1,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted), and consistent with other candidates in terms of magnitude. Critic confidence: 0.95, Verification confidence: 1.0, Growth rate of 19.32% from 2020 is plausible for debt service costs."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_budgeted": {
+        "value": 308.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 25,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted), and consistent with other candidates in terms of magnitude. Critic confidence: 0.95, Verification confidence: 1.0, Growth rate of 13.65% from 2021 is plausible and shows a gradual deceleration."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_budgeted": {
+        "value": 337.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_CitizensBudget_NationalTreasury_SADC_English_01f5e4",
+        "source_page": 1,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted), and consistent with other candidates in terms of magnitude. Critic confidence: 0.95, Verification confidence: 1.0, Growth rate of 9.39% from 2022 is plausible and further deceleration."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_budgeted": {
+        "value": 356.9,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_CitizensBudget_NationalTreasury_SADC_English_01f5e4",
+        "source_page": 1,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted). This is a forward estimate from the 2023 document, which is typical for budgeted figures. Maintains series coherence. Critic confidence: 0.92, Verification confidence: 1.0, Growth rate of 5.65% from 2023 is plausible and continues the deceleration trend."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "debt_service_cost_budgeted": {
+        "value": 360.7,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2022_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_532839",
+        "source_page": 1,
+        "notes": "Highest score (0.91), in-table data, correct data type (Budgeted). This is a forward estimate from the 2023 document. Maintains series coherence. Critic confidence: 0.9, Verification confidence: 1.0, Growth rate of 1.06% from 2024 is plausible, indicating a further slowdown in projected debt service cost growth."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_debt_service_cost_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 335.809946,
+  "extraction_date": "2025-10-31T09:55:40.563090"
+}

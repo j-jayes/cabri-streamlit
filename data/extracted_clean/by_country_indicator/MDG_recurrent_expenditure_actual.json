@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "recurrent_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_actual": {
+        "value": 1000.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Strongest candidate: correct 'Actual' data type, high score (0.9), found in table, and maintains unit consistency with the series. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_actual": {
+        "value": 1100.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
+        "source_page": 13,
+        "notes": "Best candidate with highest score (0.95), 'Actual' data type, in-table evidence. Value is consistent with 2020 and 2022. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate from 2020 to 2021: 10.0% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_actual": {
+        "value": 1250.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
+        "source_page": 13,
+        "notes": "Highest quality candidate with 'Actual' data type, strong in-table evidence, and high score (0.92). Magnitude and unit are coherent with prior years. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2021 to 2022: 13.6% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_actual": {
+        "value": 1400.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2021_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_e1a4da-0",
+        "source_page": 132,
+        "notes": "Best available candidate, using 'Revised estimate' which is acceptable for 'actual' data, especially for a more recent year. Found in table with good score (0.85). Critic confidence: 0.85, Verification confidence: 0.95, Growth rate from 2022 to 2023: 12.0% - plausible."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_actual": {
+        "value": 1600.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
+        "source_page": 17,
+        "notes": "Selected as the best available, using 'Revised estimate' which is the most robust proxy for 'actual' data when true actuals are not yet available for the most recent year. The other candidates were 'Budgeted' or 'Proposed' types. Critic confidence: 0.8, Verification confidence: 0.95, Growth rate from 2023 to 2024: 14.2% - plausible., Data type for 2024 is 'Revised estimate' as actuals are not typically available for the current or most recent year."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_recurrent_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 920.299787,
+  "extraction_date": "2025-10-31T09:45:10.908786"
+}

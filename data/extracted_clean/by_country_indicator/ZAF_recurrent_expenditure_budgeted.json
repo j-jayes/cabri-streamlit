@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "recurrent_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_budgeted": {
+        "value": 1850.2,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc20a1",
+        "source_page": 45,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and uses appropriate 'million ZAR' unit. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_budgeted": {
+        "value": 1960.8,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc21a1",
+        "source_page": 48,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and maintains 'million ZAR' unit consistency with previous year. Growth rate of 5.97% is plausible. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate from 2020: 5.97% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_budgeted": {
+        "value": 2050.1,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc22a1",
+        "source_page": 50,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and maintains unit consistency. Growth rate of 4.55% is reasonable and consistent. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate from 2021: 4.55% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_budgeted": {
+        "value": 2155.3,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc23a1",
+        "source_page": 55,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and maintains unit consistency. Growth rate of 5.13% is reasonable. Critic confidence: 0.95, Verification confidence: 0.95. Growth rate from 2022: 5.13% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_budgeted": {
+        "value": 2260.0,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc24a1",
+        "source_page": 60,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and maintains unit consistency. Growth rate of 4.86% is reasonable. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate from 2023: 4.86% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "recurrent_expenditure_budgeted": {
+        "value": 2370.0,
+        "unit": "million ZAR",
+        "data_type": "Budgeted",
+        "source_document": "doc25a1",
+        "source_page": 62,
+        "notes": "Highest scoring candidate, explicitly 'Budgeted', in table, and maintains unit consistency. Growth rate of 4.87% is reasonable. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate from 2024: 4.87% - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_recurrent_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 459.611951,
+  "extraction_date": "2025-10-31T11:29:38.678538"
+}

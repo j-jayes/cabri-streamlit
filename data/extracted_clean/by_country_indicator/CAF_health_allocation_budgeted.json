@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "health_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_budgeted": {
+        "value": 113.88,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_2c1553",
+        "source_page": 13,
+        "notes": "Highest scoring candidate, found in table with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Critic confidence: 0.95, Verification confidence: 0.95. Growth rate to 2021: 9.85% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_budgeted": {
+        "value": 125.1,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_DebtReport_Unknown_ECCASCEN-SAD_French_d0e9c6",
+        "source_page": 7,
+        "notes": "Highest scoring candidate with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Maintains unit consistency with other years. Critic confidence: 0.92, Verification confidence: 0.95. Growth rate from 2020: 9.85% - reasonable., Growth rate to 2022: 10.31% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_budgeted": {
+        "value": 138.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2022_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_b18f4d",
+        "source_page": 11,
+        "notes": "Highest scoring candidate, found in table with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Consistent with series unit. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate from 2021: 10.31% - reasonable., Growth rate to 2023: 5.43% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_budgeted": {
+        "value": 145.5,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2023_Execution_External_InYearReport_Unknown_ECCASCEN-SAD_French_4fc777",
+        "source_page": 14,
+        "notes": "Highest scoring candidate, found in table with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Consistent with series unit. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate from 2022: 5.43% - reasonable., Growth rate to 2024: 3.09% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_budgeted": {
+        "value": 150.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Approval_External_CitizensBudget_Unknown_ECCASCEN-SAD_French_6bfae2",
+        "source_page": 15,
+        "notes": "Highest scoring candidate with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Consistent with series unit. Critic confidence: 0.91, Verification confidence: 0.95. Growth rate from 2023: 3.09% - reasonable., Growth rate to 2025: 3.33% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_budgeted": {
+        "value": 155.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2021_Approval_External_CitizensBudget_Unknown_ECCASCEN-SAD_French_6bfae2",
+        "source_page": 15,
+        "notes": "Highest scoring candidate, found in table with header match, correct data type (Budgeted) and appropriate unit (billion XAF). Consistent with series unit. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate from 2024: 3.33% - reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_health_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1834.23871,
+  "extraction_date": "2025-10-31T05:41:52.758464"
+}

@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "total_revenue_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_actual": {
+        "value": 1640.5,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "Candidate is explicitly 'Actual' data from a table, unit 'billion KES' is appropriate. Forms a coherent starting point for the time series. Critic confidence: 0.92, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_actual": {
+        "value": 1750.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "Best candidate: 'Actual' data, in table, correct unit, and yields a reasonable 6.7% growth from 2020, ensuring time series coherence. Critic confidence: 0.91, Verification confidence: 0.95, Growth rate 6.67% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_actual": {
+        "value": 2000.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 81,
+        "notes": "Highest quality candidate: 'Actual' data, highest score, in table. Delivers a plausible 14.3% growth, maintaining time series coherence. Critic confidence: 0.95, Verification confidence: 0.95, Growth rate 14.29% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_actual": {
+        "value": 2150.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_eeb32e",
+        "source_page": 11,
+        "notes": "Strong candidate: explicitly 'Actual' data, in table, correct unit. Growth rate of 7.5% from 2022 is coherent with previous years. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate 7.50% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_actual": {
+        "value": 2400.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_eeb32e",
+        "source_page": 23,
+        "notes": "For a recent year like 2024, 'Revised estimate' is the closest equivalent to 'Actual' data. High evidence score and maintains coherent growth (11.6%) within the series. Critic confidence: 0.90, Verification confidence: 0.95, Growth rate 11.63% from 2023 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_revenue_actual": {
+        "value": 2650.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 14,
+        "notes": "As the most recent year, 'Provisional Actual' is the best available data type for 'total_revenue_actual'. Strong evidence and maintains coherent growth (10.4%) in the series. Critic confidence: 0.88, Verification confidence: 0.95, Growth rate 10.42% from 2024 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_total_revenue_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 930.571214,
+  "extraction_date": "2025-10-31T08:13:04.453461"
+}

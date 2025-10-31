@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "debt_service_cost_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_budgeted": {
+        "value": 15.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.95) with 'Budgeted' data type and strong in-table evidence. Unit (billion XAF) is appropriate for the magnitude. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_budgeted": {
+        "value": 16.5,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.94) with 'Budgeted' data type and strong in-table evidence. Maintains reasonable growth from the prior year. Critic confidence: 0.94, Verification confidence: 0.90. Growth rate 10.0% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_budgeted": {
+        "value": 18.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.96) with 'Budgeted' data type and strong in-table evidence. Continues a consistent growth trend. Critic confidence: 0.96, Verification confidence: 0.90. Growth rate 9.1% from 2021 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_budgeted": {
+        "value": 20.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.97) with 'Budgeted' data type and strong in-table evidence. Maintains consistent growth and unit with prior years. Critic confidence: 0.97, Verification confidence: 0.90. Growth rate 11.1% from 2022 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_budgeted": {
+        "value": 22.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.96) with 'Budgeted' data type and strong in-table evidence. Aligns with the overall growth trend. Critic confidence: 0.96, Verification confidence: 0.90. Growth rate 10.0% from 2023 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "debt_service_cost_budgeted": {
+        "value": 24.5,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "CentralAfricanRepublic_2025_Formulation_External_BudgetFramework_Unknown_ECCASCEN-SAD_French_65beee",
+        "source_page": 7,
+        "notes": "Highest score candidate (0.95) with 'Budgeted' data type and strong in-table evidence. Consistent with the established series. Critic confidence: 0.95, Verification confidence: 0.95. Growth rate 11.4% from 2024 - reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_debt_service_cost_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 658.549374,
+  "extraction_date": "2025-10-31T03:39:59.219927"
+}

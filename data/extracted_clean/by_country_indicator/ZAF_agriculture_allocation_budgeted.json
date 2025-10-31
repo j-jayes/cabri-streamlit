@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "agriculture_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_budgeted": {
+        "value": 24.5,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Execution_External_YearEndReport_NationalTreasury_SADC_English_b9b223-0",
+        "source_page": 66,
+        "notes": "Clear table evidence with header match, correct data type ('Budgeted'), and appropriate unit ('billion ZAR')., Critic confidence: 0.92, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_budgeted": {
+        "value": 25.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Execution_External_YearEndReport_NationalTreasury_SADC_English_b9b223-0",
+        "source_page": 66,
+        "notes": "Strong evidence from a table, correct data type ('Budgeted'), and appropriate unit. Higher score than alternative., Critic confidence: 0.93, Verification confidence: 0.95, Growth rate 5.31% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_budgeted": {
+        "value": 26.1,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetReview_NationalTreasury_SADC_English_ac1d58",
+        "source_page": 31,
+        "notes": "Highest score candidate with explicit 'Budgeted' data type and strong table evidence. Value is consistent with other options, maintaining coherence., Critic confidence: 0.94, Verification confidence: 0.95, Growth rate 1.16% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_budgeted": {
+        "value": 27.5,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_CitizensBudget_NationalTreasury_SADC_English_01f5e4",
+        "source_page": 1,
+        "notes": "Clear table evidence, correct data type ('Budgeted'), and presented in a standard 'billion ZAR' unit. Higher score than alternative., Critic confidence: 0.93, Verification confidence: 0.85, Growth rate 5.36% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "agriculture_allocation_budgeted": {
+        "value": 28.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Approval_External_CitizensBudget_NationalTreasury_SADC_English_01f5e4",
+        "source_page": 1,
+        "notes": "Highest score candidate with a suitable data type ('Budgeted') and strong table evidence. 'Projected' is also acceptable, but 'Budgeted' is preferred., Critic confidence: 0.91, Verification confidence: 0.95, Growth rate 1.82% from 2023 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "agriculture_allocation_budgeted": {
+        "value": 29.2,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_957973",
+        "source_page": 1,
+        "notes": "Correct data type ('Budgeted') and unit. The alternative candidate for this year had a unit error that would make its value implausibly low and break time series coherence., Critic confidence: 0.9, Verification confidence: 0.95, Growth rate 4.29% from 2024 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_agriculture_allocation_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 452.182741,
+  "extraction_date": "2025-10-31T10:05:36.791168"
+}

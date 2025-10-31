@@ -1,0 +1,82 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "health_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_actual": {
+        "value": 8431.14,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "d17855",
+        "source_page": 254,
+        "notes": "Highest scoring candidate with 'Actual' data type, strong table evidence, and explicit year mention. Preferred over 'Revised Estimate' and other 'Outturn' candidates with lower scores. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_actual": {
+        "value": 12154.67,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "3c5166",
+        "source_page": 254,
+        "notes": "Highest scoring candidate with 'Actual' data type, strong table evidence. Preferred over 'Revised Estimate' options. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2020 is 44.16%, which is high but potentially explainable by economic context or specific health initiatives."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_actual": {
+        "value": 14781.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "f64488",
+        "source_page": 260,
+        "notes": "Highest scoring candidate with 'Actual' data type and strong table evidence. Consistent value with another 'Outturn' candidate. Critic confidence: 0.90, Verification confidence: 0.95, Growth rate from 2021 is 21.60%, still high but plausible given the context."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_actual": {
+        "value": 20436.0,
+        "unit": "million GHS",
+        "data_type": "Revised estimate",
+        "source_document": "61e13e",
+        "source_page": 250,
+        "notes": "Best available data type ('Revised Estimate') for a recently completed year, extracted from the subsequent budget document. High score and table evidence. Critic confidence: 0.80, Verification confidence: 0.82, Growth rate from 2022 is 38.26%, which is very high., Value is a 'Revised Estimate', not a final 'Actual' outturn."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_actual": {
+        "value": 22030.5,
+        "notes": "Interpolated from 20436.0 (2023) and 23625.0 (2025). Original notes: "
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_actual": {
+        "value": 23625.0,
+        "unit": "million GHS",
+        "data_type": "Projected",
+        "source_document": "61e13e",
+        "source_page": 250,
+        "notes": "Only available candidate. 'Projected' is chosen as the best available forward estimate in the absence of 'Actual' or 'Revised Estimate' for future years, despite being less reliable. Critic confidence: 0.65, Verification confidence: 0.77, Value is a 'Projected' figure, not an 'Actual' or 'Revised Estimate', reducing its reliability."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_health_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 399.344556,
+  "extraction_date": "2025-10-31T09:14:23.950408"
+}

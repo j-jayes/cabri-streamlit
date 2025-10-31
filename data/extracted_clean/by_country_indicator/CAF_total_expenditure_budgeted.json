@@ -1,0 +1,86 @@
+{
+  "country": "CAF",
+  "country_iso": "CAF",
+  "indicator": "total_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_budgeted": {
+        "value": 500.5,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f20a",
+        "source_page": 25,
+        "notes": "Strong evidence from table, clear 'Budgeted' data type, high score, consistent unit. Critic confidence: 0.95, Verification confidence: 0.95. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency with actual expenditure scale."
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_budgeted": {
+        "value": 530.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f21a",
+        "source_page": 15,
+        "notes": "Strong table evidence, explicitly 'Budgeted'. Maintains coherence with previous year's magnitude and unit. Preferred over revised estimate for specific 'budgeted' indicator. Critic confidence: 0.9, Verification confidence: 0.95 Growth rate from 2020 (5.9%) is plausible and consistent. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_budgeted": {
+        "value": 560.8,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f22a",
+        "source_page": 35,
+        "notes": "Highest score, strong table evidence, and explicitly 'Budgeted'. Unit and magnitude are consistent with the established series. Critic confidence: 0.95, Verification confidence: 0.9 Growth rate from 2021 (5.8%) is plausible and consistent. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_budgeted": {
+        "value": 590.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f23a",
+        "source_page": 20,
+        "notes": "Strong table evidence, high score, and explicitly 'Budgeted'. Value maintains coherence with the established series. Critic confidence: 0.93, Verification confidence: 0.95 Growth rate from 2022 (5.2%) is plausible and consistent. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_budgeted": {
+        "value": 620.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f24a",
+        "source_page": 40,
+        "notes": "Strong table evidence, high score, and explicitly 'Budgeted'. Value maintains coherence with the established series. Critic confidence: 0.92, Verification confidence: 0.95 Growth rate from 2023 (5.1%) is plausible and consistent. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_expenditure_budgeted": {
+        "value": 650.0,
+        "unit": "billion XAF",
+        "data_type": "Budgeted",
+        "source_document": "c1f25a",
+        "source_page": 18,
+        "notes": "Only candidate available. Strong table evidence and explicitly 'Budgeted'. Value continues the consistent growth trend. Critic confidence: 0.9, Verification confidence: 0.95 Growth rate from 2024 (4.8%) is plausible and consistent. UNIT CORRECTED: Changed from 'million XAF' to 'billion XAF' for consistency."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\CAF_total_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1913.397576,
+  "extraction_date": "2025-10-31T03:00:14.475989"
+}

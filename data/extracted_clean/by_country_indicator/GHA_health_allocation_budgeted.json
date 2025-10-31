@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "health_allocation_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "health_allocation_budgeted": {
+        "value": 1500.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2022_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_899532",
+        "source_page": 69,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Value is consistent with subsequent years and aligns with the expected magnitude for this indicator. Critic confidence: 0.95, Verification confidence: 0.95, Serves as base for 20.0% growth to 2021."
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "health_allocation_budgeted": {
+        "value": 1800.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_ff035a",
+        "source_page": 22,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Maintains time series coherence with 20.0% growth from 2020. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate 20.0% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "health_allocation_budgeted": {
+        "value": 2200.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_dd4906",
+        "source_page": 36,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Maintains time series coherence with 22.2% growth from 2021. Critic confidence: 0.96, Verification confidence: 0.95, Growth rate 22.2% from 2021 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "health_allocation_budgeted": {
+        "value": 2800.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_dd4906",
+        "source_page": 36,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Maintains time series coherence with 27.3% growth from 2022. Critic confidence: 0.98, Verification confidence: 0.95, Growth rate 27.3% from 2022 - slightly elevated but plausible given typical budget trends."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "health_allocation_budgeted": {
+        "value": 3500.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2024_Execution_External_InYearReport_MinistryOfFinance_ECOWASCEN-SAD_English_357881",
+        "source_page": 25,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Maintains time series coherence with 25.0% growth from 2023. Critic confidence: 0.97, Verification confidence: 0.95, Growth rate 25.0% from 2023 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "health_allocation_budgeted": {
+        "value": 4200.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Formulation_External_BudgetFramework_Institution_ECOWASCEN-SAD_English_88cc20",
+        "source_page": 91,
+        "notes": "Highest scoring candidate with clear table evidence and correct 'Budgeted' data type. Maintains time series coherence with 20.0% growth from 2024. Critic confidence: 0.94, Verification confidence: 0.95, Growth rate 20.0% from 2024 - reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_health_allocation_budgeted.json",
+    "rerun_file": "data\\extracted_rerun\\by_country_indicator\\GHA_health_allocation_budgeted.json",
+    "merge_stats": {
+      "original": 0,
+      "rerun_filled_gap": 1,
+      "rerun_replaced": 5,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 277.469127,
+  "extraction_date": "2025-10-31T11:45:06.994160"
+}

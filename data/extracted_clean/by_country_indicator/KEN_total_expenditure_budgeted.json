@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "total_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_budgeted": {
+        "value": 2850.5,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type, strong in-table evidence, and a plausible magnitude for Kenyan expenditure. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_budgeted": {
+        "value": 3000.2,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 6,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type and strong in-table evidence. The 5.25% growth from 2020 is consistent with expected nominal expenditure growth. Critic confidence: 0.93, Verification confidence: 0.95. Year-over-year growth: 5.25%"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_budgeted": {
+        "value": 3300.7,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 81,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type and strong in-table evidence. The 10.01% growth from 2021 is plausible and maintains time series coherence. Critic confidence: 0.96, Verification confidence: 0.95. Year-over-year growth: 10.01%"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_budgeted": {
+        "value": 3600.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 81,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type and strong in-table evidence. The 9.06% growth from 2022 is consistent with the established trend. Critic confidence: 0.94, Verification confidence: 0.95. Year-over-year growth: 9.06%"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_budgeted": {
+        "value": 3950.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type and strong in-table evidence. The 9.72% growth from 2023 aligns with the time series trend. Critic confidence: 0.92, Verification confidence: 0.95. Year-over-year growth: 9.72%"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_expenditure_budgeted": {
+        "value": 4300.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Highest scoring candidate with correct 'Budgeted' data type and strong in-table evidence. The 8.86% growth from 2024 is consistent and maintains series coherence. Critic confidence: 0.90, Verification confidence: 0.95. Year-over-year growth: 8.86%"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_total_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 882.061271,
+  "extraction_date": "2025-10-31T08:13:04.232784"
+}

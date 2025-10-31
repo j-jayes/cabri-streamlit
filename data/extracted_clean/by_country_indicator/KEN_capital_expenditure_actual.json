@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "capital_expenditure_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_actual": {
+        "value": 210.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Execution_External_AdjustedBudget_NationalTreasury_EACCOMESAIGAD_English_b85d88",
+        "source_page": 45,
+        "notes": "Chosen for time series coherence, 'Revised Estimate' is acceptable for actuals. Higher 'Actual' candidate (Cand 0) created implausible growth. Critic confidence: 0.85, Verification confidence: 1.0"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_actual": {
+        "value": 290.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2020_Execution_External_AdjustedBudget_NationalTreasury_EACCOMESAIGAD_English_b85d88",
+        "source_page": 45,
+        "notes": "Strongest individual candidate with 'Actual' data type, high score, and table evidence. Contributes to a high but plausible growth rate. Critic confidence: 0.89, Verification confidence: 1.0. High growth rate of 38.1% from previous year, but plausible for capital expenditure."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_actual": {
+        "value": 410.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Strong individual candidate ('Provisional Actual', high score) that also improved time series coherence by reducing the growth rate compared to other equally scored candidates from more recent documents. Critic confidence: 0.89, Verification confidence: 1.0. High growth rate of 41.4% from previous year, but plausible for capital expenditure."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_actual": {
+        "value": 520.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Execution_External_AdjustedBudget_NationalTreasury_EACCOMESAIGAD_English_11b877",
+        "source_page": 103,
+        "notes": "Strongest individual candidate with 'Provisional Actual' data type, high score, and table evidence from a more recent document. Critic confidence: 0.89, Verification confidence: 1.0. High growth rate of 26.8% from previous year, but plausible for capital expenditure."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_actual": {
+        "value": 550.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 2,
+        "notes": "Best available data type for a future year ('Revised Estimate'), originating from the latest budget review document. Confidence adjusted for forward-looking data. Critic confidence: 0.75, Verification confidence: 1.0. Growth rate of 5.8% from previous year is reasonable. Data type is 'Revised Estimate' as actual data is not yet available."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_actual": {
+        "value": 580.0,
+        "unit": "billion KES",
+        "data_type": "Actual",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 2,
+        "notes": "Best available data type for a future year ('Projected'), originating from the latest budget review document. Confidence adjusted for forward-looking data. Critic confidence: 0.7, Verification confidence: 1.0. Growth rate of 5.5% from previous year is reasonable. Data type is 'Projected' as actual data is not yet available."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_capital_expenditure_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 2925.411762,
+  "extraction_date": "2025-10-31T11:26:34.196107"
+}

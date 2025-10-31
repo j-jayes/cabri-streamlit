@@ -1,0 +1,86 @@
+{
+  "country": "KEN",
+  "country_iso": "KEN",
+  "indicator": "capital_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_budgeted": {
+        "value": 204.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 16,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_budgeted": {
+        "value": 220.5,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2021_Approval_External_BudgetReview_NationalTreasury_EACCOMESAIGAD_English_cdd91a",
+        "source_page": 16,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.98, Verification confidence: 0.98, Growth rate from 2020 (8.08%) is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_budgeted": {
+        "value": 240.8,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Formulation_External_BudgetFramework_NationalTreasury_EACCOMESAIGAD_English_1f6d23",
+        "source_page": 66,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.97, Verification confidence: 0.88, Growth rate from 2021 (9.21%) is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_budgeted": {
+        "value": 260.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2023_Execution_External_InYearReport_NationalTreasury_EACCOMESAIGAD_English_922c24",
+        "source_page": 26,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.96, Verification confidence: 0.96, Growth rate from 2022 (7.97%) is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_budgeted": {
+        "value": 275.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.98, Growth rate from 2023 (5.77%) is reasonable. ⚠ Unverified: PDF verification failed or PDF unavailable. Concerns: PDF file missing - verification impossible"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_budgeted": {
+        "value": 290.0,
+        "unit": "billion KES",
+        "data_type": "Budgeted",
+        "source_document": "Kenya_2024_Approval_External_CitizensBudget_NationalTreasury_EACCOMESAIGAD_English_661ade",
+        "source_page": 1,
+        "notes": "Highest scoring candidate with 'Budgeted' data type, strong table evidence and header match. Unit is consistent. Critic confidence: 0.97, Verification confidence: 0.97, Growth rate from 2024 (5.45%) is reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\KEN_capital_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 1046.392048,
+  "extraction_date": "2025-10-31T08:25:35.803466"
+}

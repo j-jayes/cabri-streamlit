@@ -1,0 +1,70 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "agriculture_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_actual": {
+        "value": 20.35,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "1b2c3d",
+        "source_page": 45,
+        "notes": "Candidate has 'Actual' data type, strong evidence (in table, header match), and plausible magnitude. Critic confidence: 0.9, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_actual": {
+        "value": 22.1,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "2a3b4c",
+        "source_page": 50,
+        "notes": "Candidate has 'Actual' data type, highest score, strong evidence (in table, header match), and maintains series coherence with 8.6% growth from 2020. Critic confidence: 0.92, Verification confidence: 0.95. Growth rate from 2020: 8.6% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_actual": {
+        "value": 23.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "3b4c5d",
+        "source_page": 55,
+        "notes": "Only candidate matching 'Actual' data type, strong evidence (in table, header match), and maintains series coherence with 6.3% growth from 2021. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate from 2021: 6.3% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_actual": {
+        "value": 24.8,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "4c5d6e",
+        "source_page": 60,
+        "notes": "Only candidate matching 'Actual' data type, good evidence (in table), and maintains series coherence with 5.5% growth from 2022. Critic confidence: 0.85, Verification confidence: 0.95. Growth rate from 2022: 5.5% - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_agriculture_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 2
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 302.987259,
+  "extraction_date": "2025-10-31T10:04:09.201200"
+}

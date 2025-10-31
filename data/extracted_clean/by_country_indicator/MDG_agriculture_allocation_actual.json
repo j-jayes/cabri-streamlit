@@ -1,0 +1,67 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "agriculture_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_actual": {
+        "value": 150.0,
+        "unit": "billion XOF",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2020_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_e6c074",
+        "source_page": 9,
+        "notes": "Highest scored candidate, correct 'Actual' data type, explicitly mentioned for 2020 and found in a table with header match. Unit and magnitude are appropriate for national allocation. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_actual": {
+        "value": 160.5,
+        "unit": "billion XOF",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2023_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_2630c8",
+        "source_page": 23,
+        "notes": "Highest scored candidate, correct 'Actual' data type, explicitly mentioned for 2021 and found in a table with header match. Unit and magnitude are consistent with the previous year's selection. Critic confidence: 0.92, Verification confidence: 0.85 Growth rate from 2020: 7.0% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_actual": {
+        "value": 170.2,
+        "unit": "billion XOF",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2023_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_2630c8",
+        "source_page": 6,
+        "notes": "Highest scored candidate, correct 'Actual' data type, explicitly mentioned for 2022 and found in a table with header match. Unit and magnitude are consistent with the preceding years. Critic confidence: 0.90, Verification confidence: 0.95 Growth rate from 2021: 6.0% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_actual": {
+        "value": 180.8,
+        "unit": "billion XOF",
+        "data_type": "Actual",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_cadbe8",
+        "source_page": 1,
+        "notes": "Highest scored candidate, correct 'Actual' data type, explicitly mentioned for 2023 and found in a table with header match. Maintains coherence with the established time series. Critic confidence: 0.93, Verification confidence: 0.85 Growth rate from 2022: 6.2% - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_agriculture_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 1
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 493.10729,
+  "extraction_date": "2025-10-31T09:53:24.377025"
+}

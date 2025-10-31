@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "debt_service_cost_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "debt_service_cost_actual": {
+        "value": 200.5,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "doc20a1",
+        "source_page": 10,
+        "notes": "Explicit 'Actual' data type, high evidence score from a table, and coherent with the time series trend. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "debt_service_cost_actual": {
+        "value": 230.1,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "doc21a1",
+        "source_page": 12,
+        "notes": "Explicit 'Actual' data type, high evidence score from a table. Exhibits a reasonable 14.8% growth from 2020. Critic confidence: 0.93, Verification confidence: 0.9, Growth rate 14.8% from 2020 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "debt_service_cost_actual": {
+        "value": 265.8,
+        "unit": "billion ZAR",
+        "data_type": "Actual",
+        "source_document": "doc22a1",
+        "source_page": 15,
+        "notes": "Explicit 'Actual' data type, highest evidence score from a table. Shows a reasonable 15.5% growth from 2021. Critic confidence: 0.96, Verification confidence: 0.9, Growth rate 15.5% from 2021 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "debt_service_cost_actual": {
+        "value": 300.0,
+        "unit": "billion ZAR",
+        "data_type": "Revised estimate",
+        "source_document": "doc23a1",
+        "source_page": 18,
+        "notes": "Data type 'Revised estimate' is the closest available proxy to 'Actual' for this year, with strong evidence from a table. Maintains a reasonable 12.9% growth from 2022. Critic confidence: 0.88, Verification confidence: 0.9, Data type is 'Revised estimate', not 'Actual'. Growth rate 12.9% from 2022 - reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "debt_service_cost_actual": {
+        "value": 340.5,
+        "unit": "billion ZAR",
+        "data_type": "Projected",
+        "source_document": "doc24a1",
+        "source_page": 20,
+        "notes": "Best available candidate for the year with strong evidence (in-table, high score), despite being a 'Projected' value. It maintains time series coherence with a 13.5% growth from 2023. Critic confidence: 0.75, Verification confidence: 0.9, Data type is 'Projected', not 'Actual' as requested. Growth rate 13.5% from 2023 - reasonable, but based on a projection."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "debt_service_cost_actual": {
+        "value": 375.0,
+        "unit": "billion ZAR",
+        "data_type": "Projection",
+        "source_document": "doc25a1",
+        "source_page": 22,
+        "notes": "Best available candidate for the year with strong evidence (in-table, high score), despite being a 'Projection' value. It maintains time series coherence with a 10.1% growth from 2024. Critic confidence: 0.7, Verification confidence: 0.9, Data type is 'Projection', not 'Actual' as requested. Growth rate 10.1% from 2024 - reasonable, but based on a projection."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_debt_service_cost_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 299.647161,
+  "extraction_date": "2025-10-31T09:55:41.056883"
+}

@@ -1,0 +1,75 @@
+{
+  "country": "MDG",
+  "country_iso": "MDG",
+  "indicator": "capital_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_budgeted": {
+        "value": 1729.0,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Clear table evidence, data type explicitly 'Budget', value is in billions consistent with national scale. Best candidate for the year. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_budgeted": {
+        "value": 2409.7,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
+        "source_page": 19,
+        "notes": "Strong evidence in a table with 'Budget' data type, unit consistent with 2020. This is the only plausible candidate for the year. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate from 2020 to 2021 is 39.48%, which is high but plausible given the economic context and potentially post-pandemic recovery efforts, especially for capital expenditure."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_budgeted": {
+        "value": 2984.8,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
+        "source_page": 6,
+        "notes": "Selected based on clear table evidence with 'Budget' data type and consistent unit (billion MGA). It is the only high-quality candidate that fits the criteria. Critic confidence: 0.92, Verification confidence: 0.85. Growth rate from 2021 to 2022 is 23.86%, which is reasonable for capital expenditure."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_budgeted": {
+        "value": 3131.7,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
+        "source_page": 6,
+        "notes": "Strongest candidate with 'Budget' data type from a table, unit is consistent. Only plausible option. Critic confidence: 0.95, Verification confidence: 0.85. Growth rate from 2022 to 2023 is 4.92%, which is low but acceptable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_budgeted": {
+        "value": 3612.3,
+        "unit": "billion MGA",
+        "data_type": "Budgeted",
+        "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
+        "source_page": 46,
+        "notes": "Highest scoring candidate with clear 'Budget' data type and consistent unit from a table. Best available option. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate from 2023 to 2024 is 15.34%, which is reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\MDG_capital_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 5,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 5
+  },
+  "duration_seconds": 972.474482,
+  "extraction_date": "2025-10-31T09:47:39.852298"
+}

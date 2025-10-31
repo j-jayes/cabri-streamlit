@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "capital_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "capital_expenditure_budgeted": {
+        "value": 10.75,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 10,
+        "notes": "Clear table evidence with header match, correct data type ('Estimated') for budgeted figures, and explicit year mention. Candidate 1 provides a more precise unit extraction. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "capital_expenditure_budgeted": {
+        "value": 15.68,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinance_ECOWASCEN-SAD_English_a95695",
+        "source_page": 1,
+        "notes": "Strong table evidence with header match, correct data type ('Estimate') for budgeted figures, and explicit year mention. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 45.86% from 2020 is significant but plausible for capital expenditure budget in a post-COVID recovery context."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "capital_expenditure_budgeted": {
+        "value": 16.7,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinance_ECOWASCEN-SAD_English_a95695",
+        "source_page": 1,
+        "notes": "Strong table evidence with header match, correct data type ('Estimate') for budgeted figures, and explicit year mention. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 6.51% from 2021 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "capital_expenditure_budgeted": {
+        "value": 17.65,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2023_Execution_External_YearEndReport_MinistryOfFinance_ECOWASCEN-SAD_English_fc1927",
+        "source_page": 10,
+        "notes": "Strong table evidence with header match, correct data type ('Estimate') for budgeted figures, and explicit year mention. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 5.69% from 2022 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "capital_expenditure_budgeted": {
+        "value": 14.07,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 6,
+        "notes": "Strong table evidence with header match, correct data type ('Projected') for budgeted figures, and explicit year mention. Critic confidence: 0.96, Verification confidence: 0.95. Decrease of 20.39% from 2023 is significant but plausible given Ghana's fiscal consolidation efforts and debt crisis context."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "capital_expenditure_budgeted": {
+        "value": 14.61,
+        "unit": "billion GHS",
+        "data_type": "Budgeted",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 13,
+        "notes": "Strong table evidence with header match, correct data type ('Projected') for budgeted figures, and explicit year mention. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 3.84% from 2024 is reasonable."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_capital_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 433.772447,
+  "extraction_date": "2025-10-31T09:13:11.392833"
+}

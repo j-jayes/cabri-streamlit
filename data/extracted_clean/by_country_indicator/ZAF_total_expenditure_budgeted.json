@@ -1,0 +1,86 @@
+{
+  "country": "ZAF",
+  "country_iso": "ZAF",
+  "indicator": "total_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_expenditure_budgeted": {
+        "value": 1890.3,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_e22f84-0",
+        "source_page": 11,
+        "notes": "Strongest candidate with highest score, explicit 'Budgeted' data type, found in a table, and maintains unit consistency with the series. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_expenditure_budgeted": {
+        "value": 2050.8,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2021_Formulation_External_BudgetFramework_NationalTreasury_SADC_English_c5da47-0",
+        "source_page": 1,
+        "notes": "Highest score, explicit 'Budgeted' data type, found in a table, and results in a plausible 8.49% growth from the previous year. Critic confidence: 0.92, Verification confidence: 0.95. Growth rate of 8.49% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_expenditure_budgeted": {
+        "value": 2180.1,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_b9f3c7-0",
+        "source_page": 13,
+        "notes": "Highest score, explicit 'Budgeted' data type, found in a table, and results in a plausible 6.30% growth from the previous year. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 6.30% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_expenditure_budgeted": {
+        "value": 2250.5,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2023_Approval_External_BudgetSpeech_NationalTreasury_SADC_English_b9f3c7-0",
+        "source_page": 13,
+        "notes": "Highest score, explicit 'Budgeted' data type, found in a table, and results in a plausible 3.23% growth from the previous year. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate of 3.23% from 2022 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_expenditure_budgeted": {
+        "value": 2310.0,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Execution_External_AdjustedBudget_NationalTreasury_SADC_English_4b0648",
+        "source_page": 47,
+        "notes": "Highest score, explicit 'Budgeted' data type, found in a table, and results in a plausible 2.64% growth from the previous year. Critic confidence: 0.97, Verification confidence: 0.95. Growth rate of 2.64% from 2023 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_expenditure_budgeted": {
+        "value": 2370.2,
+        "unit": "billion ZAR",
+        "data_type": "Budgeted",
+        "source_document": "SouthAfrica_2024_Execution_External_AdjustedBudget_NationalTreasury_SADC_English_4b0648",
+        "source_page": 172,
+        "notes": "Highest score, explicit 'Budgeted' data type, found in a table, and results in a plausible 2.61% growth from the previous year. Critic confidence: 0.90, Verification confidence: 0.95. Growth rate of 2.61% from 2024 - reasonable"
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\ZAF_total_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 406.082224,
+  "extraction_date": "2025-10-31T09:55:40.872091"
+}

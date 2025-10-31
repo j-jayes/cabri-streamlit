@@ -1,0 +1,70 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "agriculture_allocation_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "agriculture_allocation_actual": {
+        "value": 1124.5,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2021_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_0cdd8f",
+        "source_page": 11,
+        "notes": "Clear actual data in 'million GHS' from a table with high evidence score., Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "agriculture_allocation_actual": {
+        "value": 1250.8,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2022_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_73c0d8",
+        "source_page": 23,
+        "notes": "Strong candidate: actual data in 'million GHS' from a table, high score. Consistent with 2020 unit., Critic confidence: 0.92, Verification confidence: 0.92, Growth rate 11.2% from 2020 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "agriculture_allocation_actual": {
+        "value": 1380.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2023_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_8e7730",
+        "source_page": 101,
+        "notes": "Best candidate: explicitly 'Actual' data in 'million GHS' from a table with a high score. Candidate 1.38 billion GHS (index 1) is a revised estimate and numerically consistent but explicitly 'Actual' is preferre... (truncated), Critic confidence: 0.9, Verification confidence: 0.9, Growth rate 10.3% from 2021 - reasonable"
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "agriculture_allocation_actual": {
+        "value": 1550.0,
+        "unit": "million GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2023_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_8e7730",
+        "source_page": 101,
+        "notes": "No 'Actual' data found, but 'Revised estimate' is an acceptable proxy. This candidate provides a plausible value in 'million GHS' from a table., Critic confidence: 0.85, Verification confidence: 0.85, Growth rate 12.3% from 2022 - reasonable, Data type is 'Revised estimate' as 'Actual' was not available"
+      }
+    },
+    {
+      "fiscal_year": 2024
+    },
+    {
+      "fiscal_year": 2025
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_agriculture_allocation_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 4,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 2
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 326.485602,
+  "extraction_date": "2025-10-31T09:14:24.107925"
+}

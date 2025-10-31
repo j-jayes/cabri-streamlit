@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "total_revenue_actual",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "total_revenue_actual": {
+        "value": 55.1,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2021_Approval_External_CitizensBudget_MinistryOfFinance_ECOWASCEN-SAD_English_eeac58",
+        "source_page": 9,
+        "notes": "Exact data type match ('Actual'), high evidence quality (in table, header match), appropriate unit. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "total_revenue_actual": {
+        "value": 67.9,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2021_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_ff035a",
+        "source_page": 27,
+        "notes": "Exact data type match ('Actual'), strong evidence (in table, header match), appropriate unit. Growth rate of 23.2% from 2020 is plausible. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate from 2020: 23.2% - plausible for economic recovery."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "total_revenue_actual": {
+        "value": 90.7,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2024_Approval_External_BudgetSpeech_MinistryOfFinance_ECOWASCEN-SAD_English_e1b604",
+        "source_page": 12,
+        "notes": "Strongest data type match ('Provisional Actual'), high evidence quality (in table, header match), consistent unit with previous years. Growth rate of 33.6% from 2021 is high but plausible given Ghana's economic context (e.g., inflation). Critic confidence: 0.9, Verification confidence: 0.95, Growth rate from 2021: 33.6% - high but potentially explained by inflation and economic dynamics."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "total_revenue_actual": {
+        "value": 115.3,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2024_Execution_External_InYearReport_Institution_ECOWASCEN-SAD_English_ef99e0",
+        "source_page": 42,
+        "notes": "Strongest data type match ('Provisional Actual'), high evidence quality (in table, header match), consistent unit. Growth rate of 27.1% from 2022 maintains a consistent, albeit high, trend. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2022: 27.1% - consistent with prior year's trend."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "total_revenue_actual": {
+        "value": 130.0,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2024_Execution_External_MidYearReview_MinistryOfFinance_ECOWASCEN-SAD_English_da6aab",
+        "source_page": 49,
+        "notes": "Best available proxy ('Forecast') for a future year where actual data is impossible. High evidence quality (in table, header match) from official source. The growth rate is a more moderate 12.7%. Critic confidence: 0.6, Verification confidence: 0.95, WARNING: Data type is 'Forecast', not 'Actual', as actual data is not available for future years., Lower confidence due to data type mismatch., Growth rate from 2023: 12.7% - reasonable for a forecast after high growth periods."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "total_revenue_actual": {
+        "value": 145.0,
+        "unit": "billion GHS",
+        "data_type": "Actual",
+        "source_document": "Ghana_2025_Execution_External_AdjustedBudget_Institution_ECOWASCEN-SAD_English_887cfa",
+        "source_page": 12,
+        "notes": "Only available candidate, data type 'Projection' is the best proxy for a future year where actual data is impossible. Good evidence quality from official source. The growth rate is a consistent 11.5%. Critic confidence: 0.55, Verification confidence: 0.95, WARNING: Data type is 'Projection', not 'Actual', as actual data is not available for future years., Lower confidence due to data type mismatch., Growth rate from 2024: 11.5% - consistent with the prior year's forecast."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_total_revenue_actual.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 175.53176,
+  "extraction_date": "2025-10-31T07:14:53.905606"
+}

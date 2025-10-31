@@ -1,0 +1,86 @@
+{
+  "country": "GHA",
+  "country_iso": "GHA",
+  "indicator": "recurrent_expenditure_budgeted",
+  "years": [
+    {
+      "fiscal_year": 2020,
+      "recurrent_expenditure_budgeted": {
+        "value": 92839.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "8c3b4a",
+        "source_page": 25,
+        "notes": "Highest score (0.95), explicitly 'Budgeted' data type, from a table, and plausible magnitude. Critic confidence: 0.95, Verification confidence: 0.95"
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "recurrent_expenditure_budgeted": {
+        "value": 97864.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "7a2b3c",
+        "source_page": 30,
+        "notes": "Highest score (0.93), explicitly 'Budgeted' data type, from a table, and plausible magnitude. Critic confidence: 0.93, Verification confidence: 0.95. Growth rate of 5.41% from 2020 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "recurrent_expenditure_budgeted": {
+        "value": 112500.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "5d6e7f",
+        "source_page": 35,
+        "notes": "Highest score (0.96), explicitly 'Budgeted' data type, from a table, and plausible magnitude. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate of 14.95% from 2021 is slightly higher but plausible for budget estimates."
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "recurrent_expenditure_budgeted": {
+        "value": 125000.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "4e5f6g",
+        "source_page": 40,
+        "notes": "Highest score (0.94), explicitly 'Budgeted' data type, from a table, and plausible magnitude. Critic confidence: 0.94, Verification confidence: 0.95. Growth rate of 11.11% from 2022 is reasonable."
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "recurrent_expenditure_budgeted": {
+        "value": 140000.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "3c4d5e",
+        "source_page": 45,
+        "notes": "Highest score (0.92), 'Projection' is an acceptable data type for future years, from a table, and plausible magnitude. Critic confidence: 0.92, Verification confidence: 0.95. Growth rate of 12.00% from 2023 is reasonable for a projection."
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "recurrent_expenditure_budgeted": {
+        "value": 155000.0,
+        "unit": "million GHS",
+        "data_type": "Budgeted",
+        "source_document": "3c4d5e",
+        "source_page": 45,
+        "notes": "Highest score (0.91), 'Projection' is an acceptable data type for future years, from a table, and plausible magnitude. Matches source document of 2024 projection. Critic confidence: 0.91, Verification confidence: 0.95. Growth rate of 10.71% from 2024 is reasonable for a projection."
+      }
+    }
+  ],
+  "merge_metadata": {
+    "original_file": "data\\extracted\\by_country_indicator\\GHA_recurrent_expenditure_budgeted.json",
+    "rerun_file": null,
+    "merge_stats": {
+      "original": 6,
+      "rerun_filled_gap": 0,
+      "rerun_replaced": 0,
+      "both_missing": 0
+    },
+    "total_years": 6
+  },
+  "duration_seconds": 546.296311,
+  "extraction_date": "2025-10-31T09:14:23.873052"
+}
