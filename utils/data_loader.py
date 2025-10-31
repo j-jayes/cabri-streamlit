@@ -97,7 +97,7 @@ INDICATOR_INFO = {
 
 
 @st.cache_data
-def load_budget_data(data_dir: str = '../data/extracted_clean/by_country_indicator') -> pd.DataFrame:
+def load_budget_data(data_dir: str = None) -> pd.DataFrame:
     """
     Load all budget data from JSON files into a single DataFrame.
     
@@ -108,14 +108,14 @@ def load_budget_data(data_dir: str = '../data/extracted_clean/by_country_indicat
         DataFrame with columns: Country, CountryISO, Indicator, IndicatorLabel,
                                 FiscalYear, Value, Unit, Source, Page, Category
     """
+    if data_dir is None:
+        # Resolve path relative to the project root
+        data_dir = Path(__file__).parent.parent / 'data' / 'extracted_clean' / 'by_country_indicator'
+    
     data_path = Path(data_dir)
     
     if not data_path.exists():
-        # Try relative to streamlit_app directory
-        data_path = Path(__file__).parent.parent.parent / 'data' / 'extracted_clean' / 'by_country_indicator'
-    
-    if not data_path.exists():
-        st.error(f"Data directory not found: {data_dir}")
+        st.error(f"Data directory not found: {data_path}")
         return pd.DataFrame()
     
     all_data = []
