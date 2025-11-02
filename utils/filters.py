@@ -122,9 +122,15 @@ def create_single_country_selector(df: pd.DataFrame, key: str = "single_country"
     """
     countries = sorted(df['Country'].unique())
     
+    # Set South Africa as default if available, otherwise use first country
+    default_index = 0
+    if 'South Africa' in countries:
+        default_index = countries.index('South Africa')
+    
     selected = st.selectbox(
         '🌍 Select Country',
         options=countries,
+        index=default_index,
         key=key,
         help='Choose a country to explore'
     )
