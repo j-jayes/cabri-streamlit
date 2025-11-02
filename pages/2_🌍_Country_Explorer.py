@@ -35,6 +35,16 @@ with st.sidebar:
     selected_country = create_single_country_selector(df, key="country_explorer_country")
     year_range = create_year_range_filter(df, key="country_explorer_year")
     selected_indicators = create_indicator_filter(df, key="country_explorer_indicator")
+    
+    # Add currency toggle
+    st.markdown("---")
+    st.markdown("### 💱 Display Currency")
+    force_usd = st.checkbox(
+        "Show values in USD",
+        value=False,
+        key="force_usd_country",
+        help="When checked, displays all values in USD. When unchecked, uses local currency."
+    )
 
 # Filter data for selected country
 country_data = filter_dataframe(
@@ -44,6 +54,18 @@ country_data = filter_dataframe(
     indicators=selected_indicators
 )
 
+# Determine which value column to use based on user preference
+if force_usd:
+    value_col, unit_label = 'ValueUSD', 'million USD'
+else:
+    # Use local currency - get the actual currency unit from the data
+    if not country_data.empty and 'Unit' in country_data.columns:
+        # Get the most common unit for this country
+        unit_label = country_data['Unit'].mode().iloc[0] if len(country_data['Unit'].mode()) > 0 else 'local currency'
+    else:
+        unit_label = 'local currency'
+    value_col = 'Value'
+
 # Get country info
 country_iso = country_data['CountryISO'].iloc[0] if not country_data.empty else None
 country_info = COUNTRY_INFO.get(country_iso, {})
@@ -51,17 +73,17 @@ country_info = COUNTRY_INFO.get(country_iso, {})
 # Country profile card
 st.markdown(f"### {country_info.get('flag', '')} {selected_country}")
 
-# Calculate averages across all years
-avg_revenue = country_data[country_data['IndicatorLabel'].str.contains('Total Revenue')].groupby('FiscalYear')['Value'].sum().mean()
-avg_expenditure = country_data[country_data['IndicatorLabel'].str.contains('Total Expenditure')].groupby('FiscalYear')['Value'].sum().mean()
+# Calculate averages across all years using selected currency
+avg_revenue = country_data[country_data['IndicatorLabel'].str.contains('Total Revenue')].groupby('FiscalYear')[value_col].sum().mean()
+avg_expenditure = country_data[country_data['IndicatorLabel'].str.contains('Total Expenditure')].groupby('FiscalYear')[value_col].sum().mean()
 
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.metric("💵 Avg. Total Revenue", f"{avg_revenue:,.0f}" if pd.notna(avg_revenue) and avg_revenue > 0 else "N/A")
+    st.metric("💵 Avg. Total Revenue", f"{avg_revenue:,.0f} {unit_label}" if pd.notna(avg_revenue) and avg_revenue > 0 else "N/A")
 
 with col2:
-    st.metric("💸 Avg. Total Expenditure", f"{avg_expenditure:,.0f}" if pd.notna(avg_expenditure) and avg_expenditure > 0 else "N/A")
+    st.metric("💸 Avg. Total Expenditure", f"{avg_expenditure:,.0f} {unit_label}" if pd.notna(avg_expenditure) and avg_expenditure > 0 else "N/A")
 
 with col3:
     indicators_available = country_data['IndicatorLabel'].nunique()
@@ -81,9 +103,9 @@ if not country_data.empty:
     fig = create_time_series_chart(
         country_data,
         x_col='FiscalYear',
-        y_col='Value',
+        y_col=value_col,
         color_col='IndicatorLabel',
-        title=f'{selected_country} - Budget Indicators Over Time',
+        title=f'{selected_country} - Budget Indicators Over Time ({unit_label})',
         height=500
     )
     st.plotly_chart(fig, use_container_width=True)
@@ -110,8 +132,8 @@ with col1:
         budgeted_df = country_data[country_data['Indicator'] == f'{base}_budgeted']
         actual_df = country_data[country_data['Indicator'] == f'{base}_actual']
         
-        avg_budgeted = budgeted_df.groupby('FiscalYear')['Value'].sum().mean() if not budgeted_df.empty else 0
-        avg_actual = actual_df.groupby('FiscalYear')['Value'].sum().mean() if not actual_df.empty else 0
+        avg_budgeted = budgeted_df.groupby('FiscalYear')[value_col].sum().mean() if not budgeted_df.empty else 0
+        avg_actual = actual_df.groupby('FiscalYear')[value_col].sum().mean() if not actual_df.empty else 0
         
         if avg_budgeted > 0 or avg_actual > 0:
             label = budgeted_df['IndicatorLabel'].iloc[0] if not budgeted_df.empty else (actual_df['IndicatorLabel'].iloc[0] if not actual_df.empty else base)
@@ -130,7 +152,7 @@ with col1:
         fig.add_trace(go.Bar(name='Budgeted', x=comp_df['Indicator'], y=comp_df['Budgeted'], marker_color='#4472C4'))
         fig.add_trace(go.Bar(name='Actual', x=comp_df['Indicator'], y=comp_df['Actual'], marker_color='#ED7D31'))
         fig.update_layout(
-            title=f'Average Budgeted vs Actual ({country_data["FiscalYear"].min()}-{country_data["FiscalYear"].max()})',
+            title=f'Average Budgeted vs Actual ({country_data["FiscalYear"].min()}-{country_data["FiscalYear"].max()}) in {unit_label}',
             barmode='group',
             height=400,
             xaxis_tickangle=-45
@@ -152,11 +174,11 @@ with col2:
     with tab1:
         if not sector_actual_data.empty:
             # Calculate average for each sector across all years
-            sector_actual_avg = sector_actual_data.groupby('IndicatorLabel')['Value'].mean().reset_index()
+            sector_actual_avg = sector_actual_data.groupby('IndicatorLabel')[value_col].mean().reset_index()
             # Clean labels - remove (Actual) suffix
             labels = [label.replace(' (Actual)', '') for label in sector_actual_avg['IndicatorLabel'].tolist()]
             fig = create_pie_chart(
-                values=sector_actual_avg['Value'].tolist(),
+                values=sector_actual_avg[value_col].tolist(),
                 labels=labels,
                 title=f'Average Sectoral Allocation (Actual) ({country_data["FiscalYear"].min()}-{country_data["FiscalYear"].max()})',
                 height=350
@@ -168,11 +190,11 @@ with col2:
     with tab2:
         if not sector_budgeted_data.empty:
             # Calculate average for each sector across all years
-            sector_budgeted_avg = sector_budgeted_data.groupby('IndicatorLabel')['Value'].mean().reset_index()
+            sector_budgeted_avg = sector_budgeted_data.groupby('IndicatorLabel')[value_col].mean().reset_index()
             # Clean labels - remove (Budgeted) suffix
             labels = [label.replace(' (Budgeted)', '') for label in sector_budgeted_avg['IndicatorLabel'].tolist()]
             fig = create_pie_chart(
-                values=sector_budgeted_avg['Value'].tolist(),
+                values=sector_budgeted_avg[value_col].tolist(),
                 labels=labels,
                 title=f'Average Sectoral Allocation (Budgeted) ({country_data["FiscalYear"].min()}-{country_data["FiscalYear"].max()})',
                 height=350
@@ -186,13 +208,13 @@ st.markdown("---")
 # Year-over-year growth
 st.markdown("### 📊 Year-over-Year Growth Rates")
 
-# Calculate growth rates
+# Calculate growth rates using selected currency
 growth_data = []
 for indicator in country_data['IndicatorLabel'].unique():
     indicator_df = country_data[country_data['IndicatorLabel'] == indicator].sort_values('FiscalYear')
     for i in range(1, len(indicator_df)):
-        prev_val = indicator_df.iloc[i-1]['Value']
-        curr_val = indicator_df.iloc[i]['Value']
+        prev_val = indicator_df.iloc[i-1][value_col]
+        curr_val = indicator_df.iloc[i][value_col]
         if prev_val > 0:
             growth = ((curr_val - prev_val) / prev_val * 100)
             growth_data.append({

@@ -40,10 +40,10 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 💱 Display Currency")
     force_usd = st.checkbox(
-        "Force USD for all comparisons",
-        value=False,
+        "Show values in USD",
+        value=len(selected_countries) > 1,
         key="force_usd_indicator",
-        help="When checked, always use USD even for single country. When unchecked, uses local currency for single country, USD for multiple countries."
+        help="When checked, displays all values in USD for easier comparison. When unchecked, uses local currency for single country views."
     )
 
 # Filter data
@@ -167,12 +167,9 @@ if 'budgeted' in indicator_key or 'actual' in indicator_key:
     budgeted_indicator = f'{base_indicator}_budgeted'
     actual_indicator = f'{base_indicator}_actual'
     
-    # Use USD for cross-country comparison (or local if force_usd is false and single country)
-    value_col_to_use = 'ValueUSD' if (len(selected_countries) > 1 or force_usd) else 'Value'
-    comparison_unit = 'million USD' if value_col_to_use == 'ValueUSD' else 'local currency'
-    
-    budgeted_data = df[df['Indicator'] == budgeted_indicator][['Country', 'FiscalYear', value_col_to_use]].rename(columns={value_col_to_use: 'Budgeted'})
-    actual_data = df[df['Indicator'] == actual_indicator][['Country', 'FiscalYear', value_col_to_use]].rename(columns={value_col_to_use: 'Actual'})
+    # Use the same value column as the rest of the page for consistency
+    budgeted_data = df[df['Indicator'] == budgeted_indicator][['Country', 'FiscalYear', value_col]].rename(columns={value_col: 'Budgeted'})
+    actual_data = df[df['Indicator'] == actual_indicator][['Country', 'FiscalYear', value_col]].rename(columns={value_col: 'Actual'})
     
     scatter_data = pd.merge(budgeted_data, actual_data, on=['Country', 'FiscalYear'], how='inner')
     scatter_data = scatter_data[(scatter_data['FiscalYear'] >= year_range[0]) & (scatter_data['FiscalYear'] <= year_range[1])]
@@ -184,7 +181,7 @@ if 'budgeted' in indicator_key or 'actual' in indicator_key:
             x_col='Budgeted',
             y_col='Actual',
             color_col='Country',
-            title=f'Budgeted vs Actual Values - All Years ({comparison_unit})',
+            title=f'Budgeted vs Actual Values - All Years ({unit_label})',
             height=450
         )
         st.plotly_chart(fig, use_container_width=True)

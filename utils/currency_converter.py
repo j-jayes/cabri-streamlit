@@ -229,17 +229,17 @@ def get_exchange_rate_info() -> pd.DataFrame:
     return pd.DataFrame(info)
 
 def _get_region(currency: str) -> str:
-    """Get region for a currency code."""
+    """Get region and currency info for a currency code."""
     regions = {
-        'KES': 'East Africa (Kenya)',
-        'GHS': 'West Africa (Ghana)',
-        'XOF': 'West Africa',
-        'XAF': 'Central Africa (CAF)',
-        'ZAR': 'Southern Africa (South Africa)',
-        'MGA': 'Indian Ocean (Madagascar)',
+        'KES': 'Kenya - Kenyan shilling',
+        'GHS': 'Ghana - Ghanaian cedi',
+        'XOF': 'West Africa - CFA franc',
+        'XAF': 'Central Africa (CAF) - CFA franc',
+        'ZAR': 'South Africa - South African rand',
+        'MGA': 'Madagascar - Malagasy ariary',
         # These appear in data but are unit errors:
-        'NGN': 'West Africa (Nigeria) ⚠️ Unit Error',
-        'UGX': 'East Africa (Uganda) ⚠️ Unit Error',
+        'NGN': 'Nigeria - Nigerian naira (⚠️ Unit Error)',
+        'UGX': 'Uganda - Ugandan shilling (⚠️ Unit Error)',
     }
     return regions.get(currency, 'Unknown')
 

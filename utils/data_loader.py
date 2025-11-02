@@ -14,11 +14,11 @@ from .currency_converter import add_usd_column
 
 # Country metadata
 COUNTRY_INFO = {
-    'CAF': {'name': 'Central African Republic', 'color': '#E74C3C', 'flag': '🇨🇫'},
-    'GHA': {'name': 'Ghana', 'color': '#F39C12', 'flag': '🇬🇭'},
-    'KEN': {'name': 'Kenya', 'color': '#27AE60', 'flag': '#🇰🇪'},
-    'MDG': {'name': 'Madagascar', 'color': '#3498DB', 'flag': '🇲🇬'},
-    'ZAF': {'name': 'South Africa', 'color': '#9B59B6', 'flag': '🇿🇦'}
+    'CAF': {'name': 'Central African Republic', 'color': '#E74C3C', 'flag': '🇨🇫', 'currency': 'XAF', 'currency_name': 'CFA franc'},
+    'GHA': {'name': 'Ghana', 'color': '#F39C12', 'flag': '🇬🇭', 'currency': 'GHS', 'currency_name': 'Ghanaian cedi'},
+    'KEN': {'name': 'Kenya', 'color': '#27AE60', 'flag': '#🇰🇪', 'currency': 'KES', 'currency_name': 'Kenyan shilling'},
+    'MDG': {'name': 'Madagascar', 'color': '#3498DB', 'flag': '🇲🇬', 'currency': 'MGA', 'currency_name': 'Malagasy ariary'},
+    'ZAF': {'name': 'South Africa', 'color': '#9B59B6', 'flag': '🇿🇦', 'currency': 'ZAR', 'currency_name': 'South African rand'}
 }
 
 # Indicator metadata
@@ -255,6 +255,11 @@ def get_indicator_category(indicator: str) -> str:
     return INDICATOR_INFO.get(indicator, {}).get('category', 'Other')
 
 
+def get_currency_name_for_country(country_iso: str) -> str:
+    """Get the currency name for a specific country."""
+    return COUNTRY_INFO.get(country_iso, {}).get('currency_name', 'local currency')
+
+
 def get_value_column(df: pd.DataFrame, selected_countries: List[str] = None) -> tuple[str, str]:
     """
     Determine which value column to use based on number of countries selected.
@@ -268,7 +273,7 @@ def get_value_column(df: pd.DataFrame, selected_countries: List[str] = None) -> 
         
     Returns:
         Tuple of (value_column_name, unit_description)
-        e.g., ('ValueUSD', 'million USD') or ('Value', 'local currency')
+        e.g., ('ValueUSD', 'million USD') or ('Value', 'billion KES')
     """
     if selected_countries is None:
         # Get unique countries from the filtered data
@@ -280,5 +285,9 @@ def get_value_column(df: pd.DataFrame, selected_countries: List[str] = None) -> 
     if num_countries > 1:
         return ('ValueUSD', 'million USD')
     else:
-        # Use local currency for single country
+        # Use local currency for single country - get the actual currency from the data
+        if not df.empty and 'Unit' in df.columns:
+            # Get the most common unit for this country
+            unit = df['Unit'].mode().iloc[0] if len(df['Unit'].mode()) > 0 else 'local currency'
+            return ('Value', unit)
         return ('Value', 'local currency')

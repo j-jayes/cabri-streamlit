@@ -35,6 +35,16 @@ with st.sidebar:
     year_range = create_year_range_filter(df, key="overview_year")
     selected_countries = create_country_filter(df, key="overview_country")
     selected_categories = create_category_filter(df, key="overview_category")
+    
+    # Add currency toggle
+    st.markdown("---")
+    st.markdown("### 💱 Display Currency")
+    force_usd = st.checkbox(
+        "Show values in USD",
+        value=len(selected_countries) > 1,
+        key="force_usd_overview",
+        help="When checked, displays all values in USD for easier comparison. When unchecked, uses local currency for single country views."
+    )
 
 # Apply filters
 filtered_df = filter_dataframe(
@@ -44,8 +54,11 @@ filtered_df = filter_dataframe(
     categories=selected_categories
 )
 
-# Determine which value column to use (USD for cross-country, local for single country)
-value_col, unit_label = get_value_column(filtered_df, selected_countries)
+# Determine which value column to use based on user preference
+if force_usd:
+    value_col, unit_label = 'ValueUSD', 'million USD'
+else:
+    value_col, unit_label = get_value_column(filtered_df, selected_countries)
 
 # KPI Cards
 st.markdown("### 🎯 Key Metrics")

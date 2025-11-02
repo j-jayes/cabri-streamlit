@@ -34,6 +34,16 @@ with st.sidebar:
     selected_countries = create_country_filter(df, key="table_country", default_all=False)
     selected_indicators = create_indicator_filter(df, key="table_indicator", default_all=False)
     year_range = create_year_range_filter(df, key="table_year")
+    
+    # Add option to show USD values
+    st.markdown("---")
+    st.markdown("### 💱 Display Currency")
+    show_usd = st.checkbox(
+        "Include USD values",
+        value=False,
+        key="show_usd_table",
+        help="When checked, adds ValueUSD column to the table for cross-country comparison."
+    )
 
 # Apply filters
 filtered_df = filter_dataframe(
@@ -79,6 +89,8 @@ with col2:
 
 # Select columns to display
 display_cols = ['CountryFlag', 'Country', 'IndicatorLabel', 'Category', 'FiscalYear', 'Value', 'Unit']
+if show_usd:
+    display_cols.insert(7, 'ValueUSD')  # Add after Unit
 if show_sources:
     display_cols.extend(['Source', 'Page'])
 
@@ -149,8 +161,9 @@ with st.expander("ℹ️ Column Descriptions"):
     - **Indicator**: Budget indicator name
     - **Category**: Indicator category (Revenue, Expenditure, Sectoral, Debt)
     - **Year**: Fiscal year
-    - **Value**: Numeric value of the indicator
-    - **Unit**: Unit of measurement
+    - **Value**: Numeric value of the indicator in local currency
+    - **Unit**: Unit of measurement for local currency
+    - **ValueUSD**: Value converted to million USD (for cross-country comparison)
     - **Source**: Source document filename
     - **Page**: Page number in source document
     """)
