@@ -7,51 +7,51 @@
       "fiscal_year": 2020,
       "debt_service_cost_actual": {
         "value": 850.2,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5c0209",
         "source_page": 436,
-        "notes": "Strong evidence (in-table, header match), correct data type ('Actual'), and clear unit (billion KES). Critic confidence: 0.95, Verification confidence: 0.95"
+        "notes": "Strong evidence (in-table, header match), correct data type ('Actual'), and clear unit (billion KES). Critic confidence: 0.95, Verification confidence: 0.95 [AUTO-FIX 2025-11-02: Currency corrected from KES to MGA - magnitude error detection identified wrong currency.]"
       }
     },
     {
       "fiscal_year": 2021,
       "debt_service_cost_actual": {
         "value": 980.5,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_62cea8",
         "source_page": 501,
-        "notes": "Highest score with strong evidence (in-table, header match), correct data type ('Actual'), and clear unit (billion KES). Forms a coherent series with 2020. Critic confidence: 0.98, Verification confidence: 0.98. Growth rate 15.3% from 2020 - reasonable for debt service."
+        "notes": "Highest score with strong evidence (in-table, header match), correct data type ('Actual'), and clear unit (billion KES). Forms a coherent series with 2020. Critic confidence: 0.98, Verification confidence: 0.98. Growth rate 15.3% from 2020 - reasonable for debt service. [AUTO-FIX 2025-11-02: Currency corrected from KES to MGA - magnitude error detection identified wrong currency.]"
       }
     },
     {
       "fiscal_year": 2022,
       "debt_service_cost_actual": {
         "value": 1150.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5c0209",
         "source_page": 436,
-        "notes": "Highest score with strong evidence, correct data type ('Actual'), and clear unit. Continues the plausible growth trend. Critic confidence: 0.97, Verification confidence: 0.97. Growth rate 17.3% from 2021 - reasonable for debt service."
+        "notes": "Highest score with strong evidence, correct data type ('Actual'), and clear unit. Continues the plausible growth trend. Critic confidence: 0.97, Verification confidence: 0.97. Growth rate 17.3% from 2021 - reasonable for debt service. [AUTO-FIX 2025-11-02: Currency corrected from KES to MGA - magnitude error detection identified wrong currency.]"
       }
     },
     {
       "fiscal_year": 2023,
       "debt_service_cost_actual": {
         "value": 1350.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Revised estimate",
         "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5c0209",
         "source_page": 436,
-        "notes": "Only viable candidate with acceptable data type ('Revised estimate'), strong evidence, and clear unit. Maintains time series coherence. Critic confidence: 0.96, Verification confidence: 0.96. Growth rate 17.4% from 2022 - reasonable for debt service."
+        "notes": "Only viable candidate with acceptable data type ('Revised estimate'), strong evidence, and clear unit. Maintains time series coherence. Critic confidence: 0.96, Verification confidence: 0.96. Growth rate 17.4% from 2022 - reasonable for debt service. [AUTO-FIX 2025-11-02: Currency corrected from KES to MGA - magnitude error detection identified wrong currency.]"
       }
     },
     {
       "fiscal_year": 2024,
       "debt_service_cost_actual": {
         "value": 1550.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Revised estimate",
         "source_document": "Madagascar_2021_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_5c0209",
         "source_page": 436,

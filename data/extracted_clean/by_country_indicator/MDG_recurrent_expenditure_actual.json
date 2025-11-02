@@ -7,7 +7,7 @@
       "fiscal_year": 2020,
       "recurrent_expenditure_actual": {
         "value": 1000.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
         "source_page": 19,
@@ -18,7 +18,7 @@
       "fiscal_year": 2021,
       "recurrent_expenditure_actual": {
         "value": 1100.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
         "source_page": 13,
@@ -29,7 +29,7 @@
       "fiscal_year": 2022,
       "recurrent_expenditure_actual": {
         "value": 1250.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2022_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_975109-0",
         "source_page": 13,
@@ -40,7 +40,7 @@
       "fiscal_year": 2023,
       "recurrent_expenditure_actual": {
         "value": 1400.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Formulation_External_BudgetFramework_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_e1a4da-0",
         "source_page": 132,
@@ -51,7 +51,7 @@
       "fiscal_year": 2024,
       "recurrent_expenditure_actual": {
         "value": 1600.0,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
         "source_page": 17,

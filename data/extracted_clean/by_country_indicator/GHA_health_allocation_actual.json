@@ -51,7 +51,8 @@
       "fiscal_year": 2024,
       "health_allocation_actual": {
         "value": 22030.5,
-        "notes": "Interpolated from 20436.0 (2023) and 23625.0 (2025). Original notes: "
+        "unit": "million GHS",
+        "notes": "Interpolated from 20436.0 (2023) and 23625.0 (2025). Original notes: [AUTO-FIX 2025-11-02: Added missing unit 'million GHS' to interpolated value for consistency.]"
       }
     },
     {

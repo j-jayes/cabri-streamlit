@@ -40,11 +40,11 @@
       "fiscal_year": 2023,
       "agriculture_allocation_budgeted": {
         "value": 1100.0,
-        "unit": "billion MGA",
+        "unit": "million MGA",
         "data_type": "Budgeted",
         "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_cadbe8",
         "source_page": 1,
-        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.10) | Strongest 'Budgeted' candidate with in-table evidence and highest score. Value (1.1 billion MGA) is equivalent to 1100 million MGA, aligning with other candidates. Critic confidence: 0.99, Verification confidence: 0.95. Growth rate 12.24% from 2022 - reasonable. Unit shifted to 'billion MGA' but is compatible with 'million MGA' for comparison.",
+        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.10) | Strongest 'Budgeted' candidate with in-table evidence and highest score. Value (1.1 billion MGA) is equivalent to 1100 million MGA, aligning with other candidates. Critic confidence: 0.99, Verification confidence: 0.95. Growth rate 12.24% from 2022 - reasonable. Unit shifted to 'billion MGA' but is compatible with 'million MGA' for comparison. [AUTO-FIX 2025-11-02: Unit corrected from 'billion MGA' to 'million MGA' to maintain consistency with prior years (2020-2022).]",
         "original_value": 1.1
       }
     },
@@ -52,11 +52,11 @@
       "fiscal_year": 2024,
       "agriculture_allocation_budgeted": {
         "value": 1250.0,
-        "unit": "billion MGA",
+        "unit": "million MGA",
         "data_type": "Budgeted",
         "source_document": "Madagascar_2022_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_c1b084",
         "source_page": 19,
-        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.25) | Strongest 'Proposed' (valid for budgeted) candidate with in-table evidence and highest score. Value (1.25 billion MGA) is equivalent to 1250 million MGA. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate 13.64% from 2023 - reasonable. Unit 'billion MGA' consistent with prior year's magnitude.",
+        "notes": "[CLEANED] Multiplied by 1000. Unit error: should be billion not trillion. (Original: 1.25) | Strongest 'Proposed' (valid for budgeted) candidate with in-table evidence and highest score. Value (1.25 billion MGA) is equivalent to 1250 million MGA. Critic confidence: 0.96, Verification confidence: 0.95. Growth rate 13.64% from 2023 - reasonable. Unit 'billion MGA' consistent with prior year's magnitude. [AUTO-FIX 2025-11-02: Unit corrected from 'billion MGA' to 'million MGA' to maintain consistency with prior years (2020-2022).]",
         "original_value": 1.25
       }
     }

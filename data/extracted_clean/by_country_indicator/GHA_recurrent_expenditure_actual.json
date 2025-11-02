@@ -22,7 +22,7 @@
         "data_type": "Actual",
         "source_document": "gha2022c",
         "source_page": 50,
-        "notes": "Highest scoring candidate with 'Actual' data type and strong table evidence. Value (85,000 million GHS) represents a plausible 21.4% growth from 2020, maintaining time series coherence. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate of 21.4% from 2020 is on the higher side but not implausible given potential economic factors."
+        "notes": "Highest scoring candidate with 'Actual' data type and strong table evidence. Value (85,000 million GHS) represents a plausible 21.4% growth from 2020, maintaining time series coherence. Critic confidence: 0.9, Verification confidence: 0.95. Growth rate of 21.4% from 2020 is on the higher side but not implausible given potential economic factors. [AUTO-FIX 2025-11-02: REVERTED - Original value 85,000 was correct, not 10x error. Value restored from incorrect /10 fix.]"
       }
     },
     {

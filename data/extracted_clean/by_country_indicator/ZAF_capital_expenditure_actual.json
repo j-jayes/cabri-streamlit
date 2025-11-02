@@ -7,11 +7,11 @@
       "fiscal_year": 2020,
       "capital_expenditure_actual": {
         "value": 150.0,
-        "unit": "million ZAR",
+        "unit": "billion ZAR",
         "data_type": "Actual",
         "source_document": "SouthAfrica_2020_Approval_External_EnactedBudget_NationalTreasury_SADC_English_7d9ea2",
         "source_page": 1,
-        "notes": "[CLEANED] Divided by 1000. Unit error: value in billion instead of million. (Original: 150,000.00) | Strongest candidate: 'Actual' data type, high score (0.95), explicit year mention, and found in table. Critic confidence: 0.95, Verification confidence: 0.98",
+        "notes": "[CLEANED] Divided by 1000. Unit error: value in billion instead of million. (Original: 150,000.00) | Strongest candidate: 'Actual' data type, high score (0.95), explicit year mention, and found in table. Critic confidence: 0.95, Verification confidence: 0.98 [AUTO-FIX 2025-11-02: Unit corrected from 'million ZAR' to 'billion ZAR' to match 2021-2024. Original cleaning note was correct about the value (150 billion) but unit label was wrong.]",
         "original_value": 150000.0
       }
     },

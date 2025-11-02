@@ -7,55 +7,55 @@
       "fiscal_year": 2020,
       "capital_expenditure_actual": {
         "value": 1700.0,
-        "unit": "billion XOF",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
         "source_page": 19,
-        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Critic confidence: 0.95, Verification confidence: 0.95"
+        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Critic confidence: 0.95, Verification confidence: 0.95 [AUTO-FIX 2025-11-02: Currency corrected from billion XOF to billion MGA - Madagascar uses MGA not XOF.]"
       }
     },
     {
       "fiscal_year": 2021,
       "capital_expenditure_actual": {
         "value": 1850.0,
-        "unit": "billion XOF",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2021_Approval_External_BudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_15481b",
         "source_page": 19,
-        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Consistent growth (8.82%) from previous year. Critic confidence: 0.92, Verification confidence: 0.92, Growth rate 8.82% from 2020 - reasonable."
+        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Consistent growth (8.82%) from previous year. Critic confidence: 0.92, Verification confidence: 0.92, Growth rate 8.82% from 2020 - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion XOF to billion MGA - Madagascar uses MGA not XOF.]"
       }
     },
     {
       "fiscal_year": 2022,
       "capital_expenditure_actual": {
         "value": 1980.0,
-        "unit": "billion XOF",
+        "unit": "billion MGA",
         "data_type": "Actual",
         "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
         "source_page": 6,
-        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Consistent growth (7.03%) from previous year. Critic confidence: 0.90, Verification confidence: 0.90, Growth rate 7.03% from 2021 - reasonable."
+        "notes": "Highest score, explicitly 'Actual' data type, strong table evidence with header match. Consistent growth (7.03%) from previous year. Critic confidence: 0.90, Verification confidence: 0.90, Growth rate 7.03% from 2021 - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion XOF to billion MGA - Madagascar uses MGA not XOF.]"
       }
     },
     {
       "fiscal_year": 2023,
       "capital_expenditure_actual": {
         "value": 2200.0,
-        "unit": "billion XOF",
+        "unit": "billion MGA",
         "data_type": "Revised estimate",
         "source_document": "Madagascar_2023_Approval_External_EnactedBudget_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_6f9004",
         "source_page": 7,
-        "notes": "Data type 'Estimate' from a 2024 document for 2023 is interpreted as a 'Revised estimate', which is acceptable for an 'actual' indicator. Highest score among valid candidates and good evidence. Consistent growth (11.11%) from previous year. Critic confidence: 0.91, Verification confidence: 0.91, Growth rate 11.11% from 2022 - reasonable."
+        "notes": "Data type 'Estimate' from a 2024 document for 2023 is interpreted as a 'Revised estimate', which is acceptable for an 'actual' indicator. Highest score among valid candidates and good evidence. Consistent growth (11.11%) from previous year. Critic confidence: 0.91, Verification confidence: 0.91, Growth rate 11.11% from 2022 - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion XOF to billion MGA - Madagascar uses MGA not XOF.]"
       }
     },
     {
       "fiscal_year": 2024,
       "capital_expenditure_actual": {
         "value": 2300.0,
-        "unit": "billion XOF",
+        "unit": "billion MGA",
         "data_type": "Revised estimate",
         "source_document": "Madagascar_2024_Approval_External_AdjustedBudgetProposal_MinistryOfFinanceAndEconomicDevelopment_SADCCOMESA_French_dcbda0",
         "source_page": 47,
-        "notes": "Data type 'Estimate' from a 2025 document for 2024 is interpreted as a 'Revised estimate', which is acceptable for an 'actual' indicator. Highest score among valid candidates and good evidence. Consistent growth (4.55%) from previous year. Critic confidence: 0.89, Verification confidence: 0.89, Growth rate 4.55% from 2023 - reasonable."
+        "notes": "Data type 'Estimate' from a 2025 document for 2024 is interpreted as a 'Revised estimate', which is acceptable for an 'actual' indicator. Highest score among valid candidates and good evidence. Consistent growth (4.55%) from previous year. Critic confidence: 0.89, Verification confidence: 0.89, Growth rate 4.55% from 2023 - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion XOF to billion MGA - Madagascar uses MGA not XOF.]"
       }
     }
   ],

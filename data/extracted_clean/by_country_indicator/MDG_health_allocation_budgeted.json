@@ -7,55 +7,55 @@
       "fiscal_year": 2020,
       "health_allocation_budgeted": {
         "value": 111.7,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Budgeted",
         "source_document": "d1e7f6",
         "source_page": 8,
-        "notes": "Strong evidence from a table with header match and correct 'Budgeted' data type for FY 2020/21. Explicit year mention. Critic confidence: 0.95, Verification confidence: 0.95"
+        "notes": "Strong evidence from a table with header match and correct 'Budgeted' data type for FY 2020/21. Explicit year mention. Critic confidence: 0.95, Verification confidence: 0.95 [AUTO-FIX 2025-11-02: Currency corrected from billion KES to billion MGA - Madagascar uses MGA not KES.]"
       }
     },
     {
       "fiscal_year": 2021,
       "health_allocation_budgeted": {
         "value": 121.1,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Budgeted",
         "source_document": "a5b4c3",
         "source_page": 12,
-        "notes": "Excellent candidate with 'Budgeted' data type, high score, and strong table evidence. Growth of 8.41% from 2020 is highly plausible. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2020: 8.41% - reasonable."
+        "notes": "Excellent candidate with 'Budgeted' data type, high score, and strong table evidence. Growth of 8.41% from 2020 is highly plausible. Critic confidence: 0.92, Verification confidence: 0.95, Growth rate from 2020: 8.41% - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion KES to billion MGA - Madagascar uses MGA not KES.]"
       }
     },
     {
       "fiscal_year": 2022,
       "health_allocation_budgeted": {
         "value": 146.8,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Budgeted",
         "source_document": "c9d8e7",
         "source_page": 18,
-        "notes": "Strongest candidate with correct 'Budgeted' data type, table evidence, and preferred unit of 'billion KES'. Maintains series coherence. Critic confidence: 0.90, Verification confidence: 0.95, Growth rate from 2021: 21.22% - elevated but plausible for budget increases."
+        "notes": "Strongest candidate with correct 'Budgeted' data type, table evidence, and preferred unit of 'billion KES'. Maintains series coherence. Critic confidence: 0.90, Verification confidence: 0.95, Growth rate from 2021: 21.22% - elevated but plausible for budget increases. [AUTO-FIX 2025-11-02: Currency corrected from billion KES to billion MGA - Madagascar uses MGA not KES.]"
       }
     },
     {
       "fiscal_year": 2023,
       "health_allocation_budgeted": {
         "value": 141.2,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Budgeted",
         "source_document": "f7a6b5",
         "source_page": 25,
-        "notes": "High-quality candidate with 'Budgeted' data type and strong table evidence. A slight decrease (-3.81%) from 2022 is within plausible budget adjustments. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate from 2022: -3.81% - plausible slight decrease."
+        "notes": "High-quality candidate with 'Budgeted' data type and strong table evidence. A slight decrease (-3.81%) from 2022 is within plausible budget adjustments. Critic confidence: 0.93, Verification confidence: 0.95, Growth rate from 2022: -3.81% - plausible slight decrease. [AUTO-FIX 2025-11-02: Currency corrected from billion KES to billion MGA - Madagascar uses MGA not KES.]"
       }
     },
     {
       "fiscal_year": 2024,
       "health_allocation_budgeted": {
         "value": 150.1,
-        "unit": "billion KES",
+        "unit": "billion MGA",
         "data_type": "Budgeted",
         "source_document": "g2h1j9",
         "source_page": 30,
-        "notes": "Chosen for its 'Proposed' data type which aligns with 'Budgeted' and strong evidence from a table. Exhibits reasonable growth from the previous year. Critic confidence: 0.91, Verification confidence: 0.95, Growth rate from 2023: 6.30% - reasonable."
+        "notes": "Chosen for its 'Proposed' data type which aligns with 'Budgeted' and strong evidence from a table. Exhibits reasonable growth from the previous year. Critic confidence: 0.91, Verification confidence: 0.95, Growth rate from 2023: 6.30% - reasonable. [AUTO-FIX 2025-11-02: Currency corrected from billion KES to billion MGA - Madagascar uses MGA not KES.]"
       }
     }
   ],
